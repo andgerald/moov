@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Mapa from './components/Mapa';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <header className="App-header">
         <p>MOOV</p>
       </header>
+       <Mapa />
     </div>
   );
 }
