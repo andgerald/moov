@@ -82,89 +82,10 @@ export default class DisplayMapClass extends React.Component {
   render() {
     return (
       // Set a height on the map so it will display
-      <div ref={this.mapRef} style={{ height: "500px" }} />
+
+      <div ref={this.mapRef} style={{ height: "100vh" }} />
+
     );
   }
 }
 
-// class Map extends React.Component {
-//   // For conciseness simply included all parameters in the querystring directly
-
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       url:
-//         "https://image.maps.api.here.com/mia/1.6/mapview?w=600&h=300&z=10&t=5&poitxs=16&poitxc=black&poifc=yello",
-//       points: [],
-//       value: '0,0',
-//       error: null,
-//     };
-//   }
-
-//   componentDidMount() {
-
-//     if (true) {
-//       navigator.geolocation.getCurrentPosition(
-//         (position) => {
-//           this.setState({
-//             value: position.coords.latitude + ',' + position.coords.longitude,
-//             error: null,
-//           });
-//         },
-//         (error) => this.setState(
-//           {error: error.message}
-//         )
-//       );
-//     }
-//     console.log(this.state.url +
-//       "&app_id=" +
-//       this.props.app_id +
-//       "&app_code=" +
-//       this.props.app_code +
-//       "&poi=" +
-//       this.getLocation());
-//   }
-
-//   changeLocation(evt) {
-//     this.setState({
-//         value: evt.target.value,
-//       }
-//     )
-//   }
-
-//   // Helper function to format list of points
-
-//   getLocation() {
-//       let param =  + this.state.value;
-
-//     // if (this.state.points.length > 0) {
-//     //   for (var poi in this.state.points) {
-//     //     param += poi.latitude + "," + poi.longitude;
-//     //   }
-//     //   return param;
-//     // }
-
-//   }
-
-//   // Render method builds the URL dynamically to fetch the image from the
-//   // HERE Map Image API
-
-//   render() {
-//     return (
-//       <img
-//         src={
-//           this.state.url +
-//           "&app_id=" +
-//           this.props.app_id +
-//           "&app_code=" +
-//           this.props.app_code +
-//           "&poi=" +
-//           this.getLocation()
-//         }
-//         alt="Todo Map"
-//       />
-//     );
-//   }
-// }
-
-// export default Map;

@@ -1,27 +1,26 @@
 import React, { Component } from 'react';
-import ActivePage from './components/ActivePage'
-import Nav from './components/Nav'
+import Welcome from './pages/Welcome';
+import MyNavBar from './components/MyNavBar'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
 
 class App extends Component {
-
-  constructor() {
-    super()
-    this.state = {
-      activePage: 0
-    }
-  }
-
-  changeState = (numero) => { 
-    this.setState({
-      activePage: numero
-    })
-  }
   render() {
     return (
-      <div>
-        <Nav cambiaEstado={this.changeState.bind(this)} />
-        <ActivePage estado={this.state.activePage} />
-      </div>
+      <Router>
+          <Switch>
+            <Route exact path="/">
+              <Welcome />
+            </Route>
+            <Route path="/Home">
+              <MyNavBar />
+            </Route>
+          </Switch>
+      </Router>
     );
   }
 }
