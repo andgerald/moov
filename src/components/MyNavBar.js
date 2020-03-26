@@ -11,6 +11,7 @@ import Accessibility from './Accessibility';
 import MenuIcon from '../assets/img/white-menu-button.png'
 import { Link } from 'react-router-dom';
 
+
 class MyNavBar extends React.Component {
 
   constructor() {
@@ -46,7 +47,6 @@ class MyNavBar extends React.Component {
 		}
 		
 	}
-
   
   render() {
     return (
