@@ -7,7 +7,7 @@ class Welcome extends Component {
   render() {
     return (
       <div className="section_">
-        <img className="imgCustom" src={Logo} />
+        <img className="imgCustom" alt="Logo" src={Logo} />
         <Link to="/Home">
         <button className="button_">Entrar</button>
         </Link>
