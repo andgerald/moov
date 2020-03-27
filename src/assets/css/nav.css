@@ -89,19 +89,4 @@ header label:hover {
         left: 53%;
       }
   }
-  /* Home Page */
-  .homeCategories {
-      padding: 10%;
-      display: flex;
-      justify-content: center;
-  }
-  .categoryBox {
-      width: 50%;
-      background-color: rgb(18, 99, 18);
-      text-align: center;
-      color: white;
-      padding: 5%;
-      display: flex;
-      justify-content: space-around;
-      margin: 1%;
-  }
+  

@@ -50,6 +50,7 @@ class MyNavBar extends React.Component {
   
   render() {
     return (
+      <div>
       <header>
         <div className="divLogo">
           <img className="logo" alt="logoMoov" onClick={()=> this.changeState(0)} src={logo} href="#home"/>
@@ -66,8 +67,9 @@ class MyNavBar extends React.Component {
               <Link onClick={()=> this.changeState(5)} href="#Accessibility"><li>Accesibilidad</li></Link>
             </ul>
           </nav>
-        <div>{this.getActivePage()}</div>
       </header>
+        <div>{this.getActivePage()}</div>
+      </div>
     );
   }
 }
