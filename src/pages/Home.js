@@ -6,7 +6,6 @@ class Home extends Component {
     render() {
         return (
             <div className="homeCategories">
-                <p>Vista Componente Home</p>
                 <Container>
                     <Row>
                         <Col>

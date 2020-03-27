@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../assets/css/services.css';
-import '../App.css';
 
 class Category extends Component {
     render() {
@@ -16,7 +15,7 @@ class Category extends Component {
                     <div className='itemServices'>Parques</div>
                     <div className='itemServices'>Otros</div>
                 </div>
-             </div>
+            </div>
         );
     }
 }
