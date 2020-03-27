@@ -9,19 +9,19 @@ class Home extends Component {
                 <Container>
                     <Row>
                         <Col>
-                          <div className="categoryBox">
+                          <div onClick={()=>this.props.changeState(1)} className="categoryBox">
                             <p>Mapa</p>
                           </div>
                         </Col>
                         <Col>
-                            <div className="categoryBox">
+                            <div onClick={()=>this.props.changeState(2)} className="categoryBox">
                                 <p>Servicios</p>    
                             </div>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                          <div className="categoryBox">
+                          <div onClick={()=>this.props.changeState(3)} className="categoryBox">
                              <p>Favoritos</p>    
                           </div>
                         </Col>

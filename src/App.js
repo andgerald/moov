@@ -13,11 +13,11 @@ class App extends Component {
     return (
       <Router>
           <Switch>
-            <Route exact path="/">
+            <Route  exact path="/">
               <Welcome />
             </Route>
-            <Route path="/Home">
-              <MyNavBar />
+            <Route path="/Inicio">
+            <MyNavBar />
             </Route>
           </Switch>
       </Router>

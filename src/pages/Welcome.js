@@ -8,7 +8,7 @@ class Welcome extends Component {
     return (
       <div className="section_">
         <img className="imgCustom" alt="Logo" src={Logo} />
-        <Link to="/Home">
+        <Link to="/Inicio">
         <button className="button_">Entrar</button>
         </Link>
       </div>
