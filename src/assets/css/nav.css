@@ -1,92 +1,153 @@
 header {
-    width: 100%;
-    background-color: rgb(95, 95, 95);
-    position: relative;
+  width: 100%;
+  background-color: rgb(95, 95, 95);
+  position: relative;
 }
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  z-index: 1000 !important;
+}
+
 .divLogo {
-    width: 8.75rem;
-    height: 3.12rem;
-    position: absolute;
-    padding: 1.25rem 0 2.5rem 0;
-    margin-left: -4.37rem;
-    display: block;
-    left: 50%;
+  width: 8.75rem;
+  height: 3.12rem;
+  position: absolute;
+  padding: 1.25rem 0 2.5rem 0;
+  margin-left: -4.37rem;
+  display: block;
+  left: 50%;
 }
+
 .logo {
-    width: 8.75rem;
-    height: 3.12rem;
+  width: 8.75rem;
+  height: 3.12rem;
 }
+
 .logo:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .nav-links {
-    width: 100%;
+  width: 100%;
+  z-index: 1000;
 }
+
 .nav-links ul {
-    margin: 0;
-    list-style: none;
-    padding: 0;
-    display: flex;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
 }
+
 .nav-links li {
-    padding: 0.62rem 1.25rem;
-    color: #fff;
-    margin-top: 1.25rem;
-    margin-left: 1.50rem;
+  padding: 0.62rem 1.25rem;
+  color: black;
+  margin-top: 1.25rem;
+  margin-left: 1.5rem;
 }
+
 header label {
-    display: none;
-    margin: 0 40px 0 0;
-    width: 30px;
-    height: 30px;
-    padding: 10px;
+  display: none;
+  margin: 0 40px 0 0;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
 }
+
 header label:hover {
-      cursor: pointer;
+  cursor: pointer;
 }
+
 #toggle {
-    display: none;
+  display: none;
 }
-  
+
 @media only screen and (max-width: 768px) {
-    header {
-        height: 100px;
-    }
-    .logo {
-        justify-content: center;
-    }
+
+  article,
+  aside,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  main,
+  nav,
+  section {
+    z-index: 1000 !important;
+  }
+
+  header {
+    height: 100px;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
   header label {
-     display: block;
-     cursor: pointer;
-     padding-top: 1.87rem;
-     padding-left: 1.25rem;
+    display: block;
+    cursor: pointer;
+    padding-top: 1.87rem;
+    padding-left: 1.25rem;
   }
-    .nav-links {
-      width: 100%;
-      background-color: rgb(117, 117, 117);
-      
-      display: none;
-     }
-     .nav-links ul {
-        flex-direction: column;
-        margin-top: 4rem;
-        text-align: center;
-     }
-     #toggle:checked ~ .nav-links {
-        display: block;
-        margin: 0;
-    }
+
+  .nav-links {
+    width: 50%;
+    /* background-color: rgb(117, 117, 117); */
+    background-color: white;
+    z-index: 1000;
+    display: none;
   }
-  @media only screen and (max-width: 1024px) {
-      .divLogo {
-        position: absolute;
-        left: 85%;
-      }
+
+  .nav-links ul {
+    flex-direction: column;
+    margin-top: 4rem;
+    text-align: center;
   }
-  @media only screen and (max-width: 480px) {
-      .divLogo {
-        position: absolute;
-        left: 53%;
-      }
+
+  #toggle:checked~.nav-links {
+    display: block;
+    margin: 0;
   }
-  
+}
+
+@media only screen and (max-width: 1024px) {
+  .divLogo {
+    position: absolute;
+    left: 85%;
+  }
+
+  article,
+  aside,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  main,
+  nav,
+  section {
+    z-index: 1000 !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .divLogo {
+    position: absolute;
+    left: 53%;
+  }
+
+  nav {
+    z-index: 1000 !important;
+  }
+}
