@@ -81,7 +81,7 @@ header label:hover {
     hgroup,
     main,
     nav,
-    section {
+  section {
       z-index: 1000 !important;
     }
   }
@@ -123,17 +123,18 @@ header label:hover {
   }
 
   article,
-aside,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section {
+  aside,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  main,
+  nav,
+  section {
   z-index: 1000 !important;
-}
+  }
+
 }
 @media only screen and (max-width: 480px) {
   .divLogo {
@@ -144,23 +145,21 @@ section {
   nav {
     z-index: 1000 !important;
   }
-}
 
-  }
-
-  .nav-links {
+.nav-links {
     width: 50%;
-    /* background-color: rgb(117, 117, 117); */
     background-color: white;
     z-index: 1000;
     display: none;
-  }
+}
 
-  .nav-links ul {
-    flex-direction: column;
-    margin-top: 4rem;
-    text-align: center;
-  }
+.nav-links ul {
+  flex-direction: column;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+}
 
   #toggle:checked~.nav-links {
     display: block;

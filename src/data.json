@@ -1,0 +1,258 @@
+[
+    {
+      "id": "01",
+      "name": "Playa El Laucho",
+      "img": "https://www.costachinchorro.cl/web/wp-content/uploads/2018/12/DSCF5041.jpg",
+      "type": "Playas y Balnearios",
+      "accessibility": 4,
+      "details": ["Estacionamiento","Rampas","Servicios Higienicos"],
+      "description":"El Laucho es una pequeña playa apta para el baño que cuenta con medidas de accesibilidad para personas con movilidad reducida.",
+      "classification": "Playa",
+      "Como llegar": {
+        "lat": -34.738410,
+        "long": -56.427150
+      },
+      "address": "Playa El Laucho, Arica, Arica y Parinacota",
+      "phone": "--",
+      "contact": "--"
+    },
+    {
+      "id": "02",
+      "name": "Playa La Lisera",
+      "img": "https://www.aricamia.cl/am/wp-content/uploads/2018/12/IMG-20181208-WA0019-660x381.jpg",
+      "type": "Playas y Balnearios",
+      "accessibility": 4,
+      "details": ["Estacionamiento","Rampas","Servicios Higienicos"],
+      "description":"El Laucho es una pequeña playa apta para el baño que cuenta con medidas de accesibilidad para personas con movilidad reducida.",
+      "classification": "Playa",
+      "Como llegar": {
+        "lat": -18.441799,
+        "long": -70.295807
+      },
+      "address": "Playa La Lisera - Av. Cmdte. San Martín, Arica, Arica y Parinacota",
+      "phone": "--",
+      "contact": "--"
+    },
+    {
+      "id": "03",
+      "name": "Playa Brava",
+      "img": "https://media-cdn.tripadvisor.com/media/photo-s/0d/43/c8/bd/playa-brava.jpg",
+      "type": "Playas y Balnearios",
+      "accessibility": 4,
+      "details": ["Estacionamiento","Rampas","Servicios Higienicos"],
+      "description":"El borde costero Playa Brava cuenta con el Sello Chile Inclusivo 2016 por espacios públicos inclusivos.",
+      "classification": "Playa",
+      "Como llegar": {
+        "lat": -36.714270 ,
+        "long": -73.138250
+      },
+      "address":"Playa Brava, Arica, Arica and Parinacota",
+      "phone": "--",
+      "contact": "--"
+    },
+    {
+      "id": "04",
+      "name": "Playa Albatros",
+      "img": "https://www.cinconoticias.com/wp-content/uploads/quintero-playas.jpg",
+      "type": "Playas y Balnearios",
+      "accessibility": 4,
+      "details": ["Estacionamiento","Rampas","Servicios Higienicos"],
+      "description":"La playa Albatros en Loncura, Quintero, cuenta con dos sillas anfibias hipocampo, un andador anfibio, una silla anfibia ocean y dos reposeras. Además, hay presencia de personal a cargo para prestar asistencia.",
+      "classification": "Playa",
+      "Como llegar": {
+        "lat": -20.260190 ,
+        "long": -70.125980
+      },
+      "address":"Loncura, Quintero, Valparaíso",
+      "phone": "--",
+      "contact": "--"
+    },
+    {
+      "id": "05",
+      "name": "Paseo Quintay",
+      "img": "https://conociendochile.com/wp-content/uploads/2018/01/quintay-3.jpg",
+      "type": "Playas y Balnearios",
+      "accessibility": 4,
+      "details": ["Estacionamiento","Rampas","Servicios Higienicos"],
+      "description":"Borde costero accesible",
+      "classification": "Borde costero",
+      "Como llegar": {
+        "lat": -20.260190 ,
+        "long": -70.125980
+      },
+      "address":"Paseo Quintay, Casablanca",
+      "phone": "--",
+      "contact": "--"
+    },
+    {
+      "id": "06",
+      "name": "Reñaca",
+      "img": "https://media-cdn.tripadvisor.com/media/vr-splice-j/06/e7/e6/f4.jpg",
+      "type": "Playas y Balnearios",
+      "accessibility": 4,
+      "details": ["Estacionamiento","Rampas","Servicios Higienicos"],
+      "description":"Cuenta con una superficie de madera sobre la arena para facilitar el desplazamiento.",
+      "classification": "Borde costero",
+      "Como llegar": {
+        "lat": -20.260190 ,
+        "long": -70.125980
+      },
+      "address":" Reñaca, Viña del Mar",
+      "phone": "--",
+      "contact": "--"
+    },
+    {
+      "id": "07",
+      "name": "Playa Las Conchitas",
+      "img": "https://mapio.net/images-p/14348930.jpg",
+      "type": "Playas y Balnearios",
+      "accessibility": 4,
+      "details": ["Estacionamiento","Rampas","Servicios Higienicos"],
+      "description":"La playa Las Conchitas de el Quisco cuenta con rampa de acceso de cemento a la arena, rampa modular de goma para transitar hacia el agua, sillas anfibias y monitores para el uso, además de estacionamiento para personas con movilidad reducida.",
+      "classification": "Playa",
+      "Como llegar": {
+        "lat": -20.260190 ,
+        "long": -70.125980
+      },
+      "address":"Playa Las Conchitas, El Quisco",
+      "phone": "--",
+      "contact": "--"
+    },
+    {
+      "id": "08",
+      "name": "Paseo Quinta",
+      "img": "https://i.pinimg.com/originals/4b/0a/b0/4b0ab0ae39ade00f21c071a18058dfce.jpg",
+      "type": "Playas y Balnearios",
+      "accessibility": 4,
+      "details": ["Estacionamiento","Rampas","Servicios Higienicos"],
+      "description":"Cuenta con una superficie de madera sobre la arena para facilitar el desplazamiento.",
+      "classification": "Borde Costero",
+      "Como llegar": {
+        "lat": -20.260190 ,
+        "long": -70.125980
+      },
+      "address":"Paseo Quinta, Viña del Mar",
+      "phone": "--",
+      "contact": "--"
+    },
+    {
+      "id": "09",
+      "name": "Borde Costero, Los Vilos",
+      "img": "http://arquitecturapaisaje.cl/wp-content/uploads/FOTO-04-RESTAURACION-BORDE-COSTERO-LOS-VILOS-1200x600.jpg",
+      "type": "Playas y Balnearios",
+      "accessibility": 4,
+      "details": ["Estacionamiento","Rampas","Servicios Higienicos"],
+      "description":"El borde costero de Los Vilos cuenta con rampa de acceso a la playa por la Avenida Salvador Allende y por calle Tajamar (terraza accesible).",
+      "classification": "Borde Costero",
+      "Como llegar": {
+        "lat": -20.260190 ,
+        "long": -70.125980
+      },
+      "address":"Los Vilos, Coquimbo",
+      "phone": "--",
+      "contact": "--"
+    },
+    {
+      "id": "10",
+      "name": "Playa de Dichato, Tomé",
+      "img": "https://r-cf.bstatic.com/images/hotel/max1280x900/808/80865491.jpg",
+      "type": "Playas y Balnearios",
+      "accessibility": 4,
+      "details": ["Estacionamiento","Rampas","Servicios Higienicos"],
+      "description":"La playa de Dichato cuenta con costanera sin desniveles, rampa de acceso a la arena y pasarelas de madera.",
+      "classification": "Borde Costero",
+      "Como llegar": {
+        "lat": -20.260190 ,
+        "long": -70.125980
+      },
+      "address":"Tomé, Bío Bío",
+      "phone": "--",
+      "contact": "--"
+    },
+    {
+      "id": "001",
+      "name": "Parque Nacional Radal Siete Tazas",
+      "img": "https://media.metrolatam.com/2020/02/08/radal-8d961d3bb22a9a3c541d9c8d660afc5e-1200x800.jpg",
+      "type": "Parques y Plazas",
+      "accessibility": 4,
+      "details": ["Estacionamiento","Rampas","Servicios Higienicos"],
+      "description":"Tiene un sendero para personas con movilidad reducida  y mirador accesible para contemplar los saltos de agua: Siete Tazas.",
+      "classification": "Parque Nacional",
+      "Como llegar": {
+        "lat": -20.260190 ,
+        "long": -70.125980
+      },
+      "address":"Radal Siete Tazas National , Molina, Maule",
+      "phone": "+56) 71-2224461",
+      "contact": "ehernandez@valdokko.com"
+    },
+    {
+      "id": "002",
+      "name": "Parque Nacional Laguna Laja",
+      "img": "https://media.biobiochile.cl/wp-content/uploads/2018/06/laguna-del-laja-43-46127-750x400.jpg",
+      "type": "Parques y Plazas",
+      "accessibility": 4,
+      "details": ["Estacionamiento","Rampas","Servicios Higienicos"],
+      "description":"Este Parque Nacional cuenta el sendero Las Chilcas, tramo Los Tatas, con 500 mts. de carpeta de hormigon para personas con  movilidad reducida, habilitado con pasamanos metálico doble, con 2 miradores en su trayecto. El Mirador del río Laja es apto para ingreso de personas con movilidad reducida.",
+      "classification": "Parque Nacional",
+      "Como llegar": {
+        "lat": -20.260190 ,
+        "long": -70.125980
+      },
+      "address":"Antuco, Bio bio.",
+      "phone": "432321086, 432322126",
+      "contact": "contacto@survivo.cl."
+    },
+    {
+      "id": "003",
+      "name": "Parque Nacional Tolhuaca",
+      "img": "https://www.editorialcompass.cl/wp-content/uploads/2019/07/admin-ajax.png",
+      "type": "Parques y Plazas",
+      "accessibility": 4,
+      "details": ["Estacionamiento","Rampas","Servicios Higienicos"],
+      "description":"Cuenta con un sendero de 400 metros lineales para visitantes con movilidad reducida , usuarios de silla de ruedas. Además, tiene implementado con 8 placas interpretativas, mirador y bancas para descanso, sobre un humedal, sector laguna Malleco, del parque nacional.",
+      "classification": "Parque Nacional",
+      "Como llegar": {
+        "lat": -20.260190 ,
+        "long": -70.125980
+      },
+      "address":"Parque Nacional Tolhuaca ,provincia de Malleco , Araucania",
+      "phone": "(+56) 45 2298210 o (+56) 45 2298100",
+      "contact": "temuco.oirs@conaf.cl."
+    },
+    {
+      "id": "004",
+      "name": "Parque Nacional Fray Jorge",
+      "img": "https://ovallehoy.cl/wp-content/uploads/2019/07/parque_nacional_fray_jorge_foto.jpg",
+      "type": "Parques y Plazas",
+      "accessibility": 4,
+      "details": ["Estacionamiento","Rampas","Servicios Higienicos"],
+      "description":"Cuenta con sendero para personas con movilidad reducida , baños accesible y  mirador. Actualmente, se encuentra en proceso de mejoramiento",
+      "classification": "Parque Nacional",
+      "Como llegar": {
+        "lat": -20.260190 ,
+        "long": -70.125980
+      },
+      "address":"Parque Nacional Tolhuaca ,provincia de Malleco , Araucania",
+      "phone": "(56) 512244769",
+      "contact": "coquimbo.oirs@conaf.cl."
+    },
+    {
+      "id": "005",
+      "name": "Plaza Samuel Muñoz, Tomé",
+      "img": "http://2.bp.blogspot.com/-2rfLcAyAnww/To8-kv-kJfI/AAAAAAAAAIU/TU4aOFtZ5hA/s320/01102011037.jpg",
+      "type": "Parques y Plazas",
+      "accessibility": 4,
+      "details": ["Estacionamiento","Rampas","Servicios Higienicos"],
+      "description":"Cuenta con juegos inclusivos, rutas accesibles y estacionamiento de uso exclusivo de personas con movilidad reducida.",
+      "classification": "Plazas",
+      "Como llegar": {
+        "lat": -20.260190 ,
+        "long": -70.125980
+      },
+      "address":"Plaza Samuel Muñoz Larenas - Los Deportes 1000-1098, Tome, Tomé, Bío Bío",
+      "phone": "--",
+      "contact": "--"
+    }
+    
+  ]
