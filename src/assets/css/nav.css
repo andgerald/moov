@@ -2,34 +2,24 @@ header {
   width: 100%;
   background-color: rgb(95, 95, 95);
   position: relative;
-}
-
-article,
-aside,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section {
-  z-index: 1000 !important;
+  height: 100px;
 }
 
 .divLogo {
   width: 8.75rem;
   height: 3.12rem;
-  position: absolute;
-  padding: 1.25rem 0 2.5rem 0;
-  margin-left: -4.37rem;
+  padding: 1.25rem 0 1.25rem 0;
   display: block;
-  left: 50%;
 }
 
 .logo {
   width: 8.75rem;
   height: 3.12rem;
+  display: block;
+  left: 80%;
+  position: absolute;
+  margin-top: 1.56rem;
+  margin-left: 1rem;
 }
 
 .logo:hover {
@@ -50,7 +40,7 @@ section {
 
 .nav-links li {
   padding: 0.62rem 1.25rem;
-  color: black;
+  color: white;
   margin-top: 1.25rem;
   margin-left: 1.5rem;
 }
@@ -72,26 +62,25 @@ header label:hover {
 }
 
 @media only screen and (max-width: 768px) {
-    article,
-    aside,
-    figcaption,
-    figure,
-    footer,
-    header,
-    hgroup,
-    main,
-    nav,
-    section {
-      z-index: 1000 !important;
-    }
+
+  article,
+  aside,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  main,
+  nav,
+  section {
+    z-index: 1000 !important;
   }
 
-  header {
-    height: 100px;
-  }
   .logo {
+    display: flex;
     justify-content: center;
   }
+
   header label {
     display: block;
     cursor: pointer;
@@ -99,58 +88,10 @@ header label:hover {
     padding-left: 1.25rem;
 
   }
-  .nav-links {
-    width: 50%;
-    /* background-color: rgb(117, 117, 117); */
-    background-color: white;
-    z-index: 1000;
-    display: none;
-  }
-  .nav-links ul {
-    flex-direction: column;
-    margin-top: 4rem;
-    text-align: center;
-  }
-  #toggle:checked ~ .nav-links {
-    display: block;
-    margin: 0;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .divLogo {
-    position: absolute;
-    left: 85%;
-  }
-
-  article,
-aside,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section {
-  z-index: 1000 !important;
-}
-}
-@media only screen and (max-width: 480px) {
-  .divLogo {
-    position: absolute;
-    left: 53%;
-  }
-
-  nav {
-    z-index: 1000 !important;
-  }
-}
-
-  }
 
   .nav-links {
     width: 50%;
-    /* background-color: rgb(117, 117, 117); */
+    color: black;
     background-color: white;
     z-index: 1000;
     display: none;
@@ -160,6 +101,11 @@ section {
     flex-direction: column;
     margin-top: 4rem;
     text-align: center;
+
+  }
+
+  .nav-links li {
+    color: black;
   }
 
   #toggle:checked~.nav-links {
@@ -168,4 +114,41 @@ section {
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .logo {
+    position: absolute;
+    left: 85%;
+    margin-left: 1rem;
+  }
 
+  article,
+  aside,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  main,
+  nav,
+  section {
+    z-index: 1000 !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav {
+    z-index: 1000 !important;
+  }
+
+  .nav-links,
+  ul {
+
+    color: black;
+
+  }
+}

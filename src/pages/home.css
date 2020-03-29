@@ -1,0 +1,38 @@
+/* Home Page */
+.homeCategories {
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.categoryBox {
+    width: 50%;
+    background-color: rgb(18, 99, 18);
+    text-align: center;
+    color: white;
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+}
+
+.categoryBox,
+p {
+    text-align: center;
+    padding-top: 0.93rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .categoryBox {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .homeCategories {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+}
