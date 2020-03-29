@@ -1,0 +1,41 @@
+/* contenedor de las tarjetas */
+.container_ {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: gray;
+  
+}
+.elementos_ {
+  height: 260px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: black;
+  background:white;
+  width: 250px;
+  padding-top: 10px;
+}
+p {
+  margin: 0px !important; 
+}
+.type{
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  color: white;
+  margin: 0px;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+}
+.name {
+  margin-top: 10px;
+  font-size: max(20px);
+}
+.itemImg {
+  width: 230px;
+  height: 150px;
+  transition: transform 0.5s ease;
+  padding: 0px;
+  border-radius: 10px;
+}

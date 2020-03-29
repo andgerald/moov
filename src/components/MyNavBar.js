@@ -9,7 +9,7 @@ import Favorities from './Favorites';
 import About from './About';
 import Accessibility from './Accessibility';
 import MenuIcon from '../assets/img/white-menu-button.png'
-import { Link } from 'react-router-dom';
+
 
 
 class MyNavBar extends React.Component {
@@ -26,8 +26,8 @@ class MyNavBar extends React.Component {
       activePage: numero
     })
   }
-  getActivePage = () => {
 
+  getActivePage = () => {
 		// evaluamos el estado que recibimos por props, si cambia se vuelve a evaluar
 		switch (this.state.activePage) {
 			case 0:
@@ -35,7 +35,7 @@ class MyNavBar extends React.Component {
 			case 1:
 				return <Maps/>
 			case 2:
-				return <Services/>
+				return <Services />
 			case 3:
 				return <Favorities/>
 			case 4:
@@ -55,9 +55,9 @@ class MyNavBar extends React.Component {
         {/* <div className="divLogo">
         <img className="logo" alt="logoMoov" onClick={()=> this.changeState(0)} src={logo} href="#home"/> 
         </div> */}
+
         <label htmlFor="toggle"><img alt="menuIcon" src={MenuIcon}/></label>
         <input type="checkbox" id="toggle" />
-        
           <nav className="nav-links">
             <ul>
               <img className="logo" alt="logoMoov" onClick={()=> this.changeState(0)} src={logo} href="#"/> 
