@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import '../App.css';
-import DisplayMapClass from './DisplayMapClass'
+import addMarkersToMap from '../components/marks'
 
 class Home extends Component {
     render() {
         return (
             <div className='App'>
-                <DisplayMapClass />
+                <addMarkersToMap />
                 <h1>Componente Home</h1>
             </div>
         );

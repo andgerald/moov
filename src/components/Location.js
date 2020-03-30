@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 const platform = new H.service.Platform({
- 'apikey': 'gdzIqywx5WpI4vRv69OuLS2U62NAWbpT83Q7Bmg7KOU'
+ apikey: 'gdzIqywx5WpI4vRv69OuLS2U62NAWbpT83Q7Bmg7KOU'
 });
 
 // This class definition is a React.Component so that we
