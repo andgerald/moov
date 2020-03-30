@@ -80,6 +80,11 @@ header label:hover {
     z-index: 1000 !important;
   }
 
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+
   header label {
     display: block;
     cursor: pointer;
@@ -110,10 +115,6 @@ header label:hover {
   #toggle:checked~.nav-links {
     display: block;
     margin: 0;
-  }
-
-  .logo {
-    margin-top: -20px;
   }
 }
 
