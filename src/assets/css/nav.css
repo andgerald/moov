@@ -45,6 +45,10 @@ header {
   margin-left: 1.5rem;
 }
 
+.nav-links li:hover {
+  cursor: pointer;
+}
+
 header label {
   display: none;
   margin: 0 40px 0 0;
@@ -109,8 +113,7 @@ header label:hover {
   }
 
   .logo {
-    display: flex;
-    justify-content: center;
+    margin-top: -20px;
   }
 }
 
@@ -130,7 +133,7 @@ section {
 @media only screen and (max-width: 1024px) {
   .logo {
     position: absolute;
-    left: 80%;
+    left: 75%;
     margin-left: 1rem;
   }
 
@@ -152,8 +155,8 @@ section {
 @media only screen and (max-width: 480px) {
   .logo {
     display: flex;
-    position: absolute;
     justify-content: center;
+    left: 30%;
   }
 
   nav {
