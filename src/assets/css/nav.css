@@ -15,7 +15,7 @@ header {
 .logo {
   width: 8.75rem;
   height: 3.12rem;
-  display: block;
+  display: flex;
   left: 80%;
   position: absolute;
   margin-top: 1.56rem;
@@ -43,6 +43,10 @@ header {
   color: white;
   margin-top: 1.25rem;
   margin-left: 1.5rem;
+}
+
+.nav-links li:hover {
+  cursor: pointer;
 }
 
 header label {
@@ -127,13 +131,10 @@ section {
   z-index: 1000 !important;
 }
 
-
-
-
 @media only screen and (max-width: 1024px) {
   .logo {
     position: absolute;
-    left: 80%;
+    left: 75%;
     margin-left: 1rem;
   }
 
@@ -156,6 +157,7 @@ section {
   .logo {
     display: flex;
     justify-content: center;
+    left: 30%;
   }
 
   nav {
