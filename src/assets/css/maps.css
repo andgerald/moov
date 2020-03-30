@@ -1,0 +1,8 @@
+.titleMaps{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    margin: 0px;
+
+}
