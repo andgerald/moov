@@ -75,6 +75,43 @@ header label:hover {
   section {
     z-index: 1000 !important;
   }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  header label {
+    display: block;
+    cursor: pointer;
+    padding-top: 1.87rem;
+    padding-left: 1.25rem;
+
+  }
+
+  .nav-links {
+    width: 50%;
+    color: black;
+    background-color: white;
+    z-index: 1000;
+    display: none;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    margin-top: 4rem;
+    text-align: center;
+
+  }
+
+  .nav-links li {
+    color: black;
+  }
+
+  #toggle:checked~.nav-links {
+    display: block;
+    margin: 0;
+  }
 }
 
 article,
@@ -90,48 +127,13 @@ section {
   z-index: 1000 !important;
 }
 
-.logo {
-  display: flex;
-  justify-content: center;
-}
 
-header label {
-  display: block;
-  cursor: pointer;
-  padding-top: 1.87rem;
-  padding-left: 1.25rem;
-
-}
-
-.nav-links {
-  width: 50%;
-  color: black;
-  background-color: white;
-  z-index: 1000;
-  display: none;
-}
-
-.nav-links ul {
-  flex-direction: column;
-  margin-top: 4rem;
-  text-align: center;
-
-}
-
-.nav-links li {
-  color: black;
-}
-
-#toggle:checked~.nav-links {
-  display: block;
-  margin: 0;
-}
 
 
 @media only screen and (max-width: 1024px) {
   .logo {
     position: absolute;
-    left: 85%;
+    left: 80%;
     margin-left: 1rem;
   }
 
@@ -173,9 +175,8 @@ header label {
     text-align: center;
   }
 
-}
-
-#toggle:checked~.nav-links {
-  display: block;
-  margin: 0;
+  #toggle:checked~.nav-links {
+    display: block;
+    margin: 0;
+  }
 }
