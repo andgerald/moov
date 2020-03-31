@@ -21,7 +21,7 @@ class SiteFooter extends React.Component {
                             </div>
                         </div>
                         <div className="column-3-of-3">
-                            <div onClick={()=>this.props.changeState(1)} className="footerBox">
+                            <div onClick={()=> this.changeState(1)} className="footerBox">
                             <img className="footerIcon" alt="map" src={Map} /> 
                             </div>
                         </div>

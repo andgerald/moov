@@ -1,10 +1,11 @@
 .titleServices {
   display: flex;
   justify-content: center;
-  background-color: gray;
+  background-color: #28a5eb;
   color: white;
   width: 100%;
   margin: 0px;
+  padding-bottom: 0.5%;
 }
 
 .sectionServices {
@@ -33,4 +34,9 @@
   mix-blend-mode: normal;
   border: 2px solid #ffffff;
   box-sizing: border-box;
+}
+
+.type {
+  background-color: #28a5eb !important;
+  padding-bottom: 1%;
 }

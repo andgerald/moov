@@ -8,8 +8,8 @@ import Services from './Services';
 import Favorities from './Favorites';
 import About from './About';
 import Accessibility from './Accessibility';
-import MenuIcon from '../assets/img/white-menu-button.png'
-
+import MenuIcon from '../assets/img/white-menu-button.png';
+import Map from '../assets/img/map-icon.png';
 
 
 class MyNavBar extends React.Component {
@@ -57,13 +57,14 @@ class MyNavBar extends React.Component {
         </div>
         <label htmlFor="toggle"><img alt="menuIcon" src={MenuIcon}/></label>
         <input type="checkbox" id="toggle" />
+        <img className="navMapIcon" alt="mapIcon" src={Map} onClick={()=> this.changeState(1)} href="#Maps" />
           <nav className="nav-links">
             <ul>
               <div onClick={()=> this.changeState(1)} href="#Maps"><li>Mapa</li></div>
               <div onClick={()=> this.changeState(2)} href="#Services"><li>Servicios</li></div>
               <div onClick={()=> this.changeState(3)} href="#Favorities"><li>Favoritos</li></div>
               <div onClick={()=> this.changeState(4)} href="#About"><li>Acerca de</li></div>
-              <div onClick={()=> this.changeState(5)} href="#Accessibility"><li>Accesibilidad</li></div>
+              <div onClick={()=> this.changeState(5)} href="#Accessibility"><li className="last-of-li">Accesibilidad</li></div>
             </ul>
           </nav>
       </header>

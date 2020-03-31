@@ -32,7 +32,7 @@ class ListServices extends Component {
           {this.state.data.map(current => {
             return (
               <div className="elementos_" key={current.id}>
-                <img className="itemImg" src={`${current.img}`} />
+                <img alt="itemImg" className="itemImg" src={`${current.img}`} />
                 <h1 className="name">{current.name}</h1>
                 <StarRatings
                   starDimension={"25px"}
