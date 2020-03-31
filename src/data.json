@@ -8,8 +8,8 @@
     "description": "El Laucho es una pequeña playa apta para el baño que cuenta con medidas de accesibilidad para personas con movilidad reducida.",
     "classification": "Playa",
     "location": {
-      "lat": -34.738410,
-      "lng": -56.427150
+      "lat": -18.441337,
+      "lng": -70.295648
     },
     "address": "Playa El Laucho, Arica, Arica y Parinacota",
     "phone": "--",
@@ -25,8 +25,8 @@
     "description": "El Laucho es una pequeña playa apta para el baño que cuenta con medidas de accesibilidad para personas con movilidad reducida.",
     "classification": "Playa",
     "location": {
-      "lat": -18.441799,
-      "lng": -70.295807
+      "lat": -18.4935523,
+      "lng": -70.3258557
     },
     "address": "Playa La Lisera - Av. Cmdte. San Martín, Arica, Arica y Parinacota",
     "phone": "--",
@@ -42,10 +42,10 @@
     "description": "El borde costero Playa Brava cuenta con el Sello Chile Inclusivo 2016 por espacios públicos inclusivos.",
     "classification": "Playa",
     "location": {
-      "lat": -36.714270,
-      "lng": -73.138250
+      "lat": -18.495622634887695,
+      "lng": -70.32489776611328
     },
-    "address": "Playa Brava, Arica, Arica and Parinacota",
+    "address": "Playa Brava, Arica, Chile",
     "phone": "--",
     "contact": "--"
   },
@@ -59,10 +59,10 @@
     "description": "La playa Albatros en Loncura, Quintero, cuenta con dos sillas anfibias hipocampo, un andador anfibio, una silla anfibia ocean y dos reposeras. Además, hay presencia de personal a cargo para prestar asistencia.",
     "classification": "Playa",
     "location": {
-      "lat": -20.260190,
-      "lng": -70.125980
+      "lat": -32.782399,
+      "lng": -71.5252993
     },
-    "address": "Loncura, Quintero, Valparaíso",
+    "address": "Playa Albatros, Los Cisternas, 840000 Quintero, Chile",
     "phone": "--",
     "contact": "--"
   },
@@ -76,10 +76,10 @@
     "description": "Borde costero accesible",
     "classification": "Borde costero",
     "location": {
-      "lat": -20.260190,
-      "lng": -70.125980
+      "lat": -33.19329833984375,
+      "lng": -71.69660186767578
     },
-    "address": "Paseo Quintay, Casablanca",
+    "address": "Quintay, Casablanca, Chile",
     "phone": "--",
     "contact": "--"
   },
@@ -93,10 +93,10 @@
     "description": "Cuenta con una superficie de madera sobre la arena para facilitar el desplazamiento.",
     "classification": "Borde costero",
     "location": {
-      "lat": -20.260190,
-      "lng": -70.125980
+      "lat": -32.97197723388672,
+      "lng": -71.54431915283203
     },
-    "address": " Reñaca, Viña del Mar",
+    "address": "Reñaca, Viña del Mar, Chile",
     "phone": "--",
     "contact": "--"
   },
@@ -110,10 +110,10 @@
     "description": "La playa Las Conchitas de el Quisco cuenta con rampa de acceso de cemento a la arena, rampa modular de goma para transitar hacia el agua, sillas anfibias y monitores para el uso, además de estacionamiento para personas con movilidad reducida.",
     "classification": "Playa",
     "location": {
-      "lat": -20.260190,
-      "lng": -70.125980
+      "lat": -33.4404376,
+      "lng": -71.6878752
     },
-    "address": "Playa Las Conchitas, El Quisco",
+    "address": "Playa Las Conchitas, El Quisco Valparaíso",
     "phone": "--",
     "contact": "--"
   },
@@ -127,8 +127,8 @@
     "description": "Cuenta con una superficie de madera sobre la arena para facilitar el desplazamiento.",
     "classification": "Borde Costero",
     "location": {
-      "lat": -20.260190,
-      "lng": -70.125980
+      "lat": -33.0244834,
+      "lng": -71.5561448
     },
     "address": "Paseo Quinta, Viña del Mar",
     "phone": "--",
@@ -144,8 +144,8 @@
     "description": "El borde costero de Los Vilos cuenta con rampa de acceso a la playa por la Avenida Salvador Allende y por calle Tajamar (terraza accesible).",
     "classification": "Borde Costero",
     "location": {
-      "lat": -20.260190,
-      "lng": -70.125980
+      "lat": -31.9122168,
+      "lng": -71.5137438
     },
     "address": "Los Vilos, Coquimbo",
     "phone": "--",
@@ -161,8 +161,8 @@
     "description": "La playa de Dichato cuenta con costanera sin desniveles, rampa de acceso a la arena y pasarelas de madera.",
     "classification": "Borde Costero",
     "location": {
-      "lat": -20.260190,
-      "lng": -70.125980
+      "lat": -36.5433443,
+      "lng": -72.9347831
     },
     "address": "Tomé, Bío Bío",
     "phone": "--",
@@ -178,8 +178,8 @@
     "description": "Tiene un sendero para personas con movilidad reducida  y mirador accesible para contemplar los saltos de agua: Siete Tazas.",
     "classification": "Parque Nacional",
     "location": {
-      "lat": -20.260190,
-      "lng": -70.125980
+      "lat": -35.477285,
+      "lng": -70.9383239
     },
     "address": "Radal Siete Tazas National , Molina, Maule",
     "phone": "+56) 71-2224461",
@@ -195,8 +195,8 @@
     "description": "Este Parque Nacional cuenta el sendero Las Chilcas, tramo Los Tatas, con 500 mts. de carpeta de hormigon para personas con  movilidad reducida, habilitado con pasamanos metálico doble, con 2 miradores en su trayecto. El Mirador del río Laja es apto para ingreso de personas con movilidad reducida.",
     "classification": "Parque Nacional",
     "location": {
-      "lat": -20.260190,
-      "lng": -70.125980
+      "lat": -37.41069412231445,
+      "lng": -71.3512954711914
     },
     "address": "Antuco, Bio bio.",
     "phone": "432321086, 432322126",
@@ -212,8 +212,8 @@
     "description": "Cuenta con un sendero de 400 metros lineales para visitantes con movilidad reducida , usuarios de silla de ruedas. Además, tiene implementado con 8 placas interpretativas, mirador y bancas para descanso, sobre un humedal, sector laguna Malleco, del parque nacional.",
     "classification": "Parque Nacional",
     "location": {
-      "lat": -20.260190,
-      "lng": -70.125980
+      "lat": -38.2090624,
+      "lng": -71.8162251
     },
     "address": "Parque Nacional Tolhuaca ,provincia de Malleco , Araucania",
     "phone": "(+56) 45 2298210 o (+56) 45 2298100",
@@ -229,10 +229,10 @@
     "description": "Cuenta con sendero para personas con movilidad reducida , baños accesible y  mirador. Actualmente, se encuentra en proceso de mejoramiento",
     "classification": "Parque Nacional",
     "location": {
-      "lat": -20.260190,
-      "lng": -70.125980
+      "lat": -30.6802494,
+      "lng": -71.666126
     },
-    "address": "Parque Nacional Tolhuaca ,provincia de Malleco , Araucania",
+    "address": "Parque Nacional Bosque de Fray Jorge, Cruce Longitudinal (Cerrillos Pobres) - Fray Jorge, Ovalle, Chile",
     "phone": "(56) 512244769",
     "contact": "coquimbo.oirs@conaf.cl."
   },
@@ -246,8 +246,8 @@
     "description": "Cuenta con juegos inclusivos, rutas accesibles y estacionamiento de uso exclusivo de personas con movilidad reducida.",
     "classification": "Plazas",
     "location": {
-      "lat": -20.260190,
-      "lng": -70.125980
+      "lat": -36.6170801,
+      "lng": -72.9575043
     },
     "address": "Plaza Samuel Muñoz Larenas - Los Deportes 1000-1098, Tome, Tomé, Bío Bío",
     "phone": "--",
@@ -263,8 +263,8 @@
     "description": "El Museo de Arte Colonial San Francisco, cuenta desde el año 2015 con un proyecto inclusivo y multisensorial el cual contempla visitas guiadas para personas en situación de discapacidad física o psíquica; rampas de acceso en la entrada y en las distintas salas del museo para personas con movilidad reducida; folletos del museo diseñados de forma sencilla apoyado con imágenes para ser entendidos por todo tipo de público; folletos en formato braille y en contraste para personas que poseen baja visión; placas en formato braille al inicio de cada sala que señalan el nombre y una breve descripción de la misma, y un baño habilitado para personas en situación de discapacidad. ",
     "classification": "Institución cultural",
     "location": {
-      "lat": -33.442348,
-      "lng": -70.5621901
+      "lat": -33.44322204589844,
+      "lng": -70.64768981933594
     },
     "address": "Avenida Libertador Bernardo O’Higgins 834, Santiago",
     "phone": "226398737",
@@ -280,8 +280,8 @@
     "description": "El MIM permite el ingreso gratuito de personas con discapacidad, quienes deben presentar su credencial en las boleterías del museo.",
     "classification": "Institución cultural",
     "location": {
-      "lat": -33.442348,
-      "lng": -70.5621901
+      "lat": -33.5184507,
+      "lng": -70.6115475
     },
     "address": "Avenida Punta Arenas 6711, La Granja",
     "phone": "(2)2828 8000",
@@ -382,8 +382,8 @@
     "description": "Cuenta con apoyo visual: carteles táctiles, braille; lavamanos más bajo y WC con barras de apoyo. Programas de hidroterapia, actividades lúdicas y trekking inclusivos para no videntes y personas con capacidad de desplazamiento reducidas",
     "classification": "Alimentación",
     "location": {
-      "lat": -33.4248019,
-      "lng": -70.6813559
+      "lat": -33.7889894,
+      "lng": -70.2264545
     },
     "address": "Camino al volcán 9716, San Jose de Maipo",
     "phone": "228711122",
@@ -399,8 +399,8 @@
     "description": "Cuenta con garzones que se comunican en lengua de señas, apoyo visual: carta en braille.",
     "classification": "Alimentación",
     "location": {
-      "lat": -33.442348,
-      "lng": -70.5621901
+      "lat": -33.45444869995117,
+      "lng": -70.57801055908203
     },
     "address": "Irarrázaval 3993, Ñuñoa, Región Metropolitana",
     "phone": "(2)2904 7751",
@@ -416,8 +416,8 @@
     "description": "Cuenta con acceso para silla de ruedas",
     "classification": "Alimentación",
     "location": {
-      "lat": -29.9534376,
-      "lng": -71.3024695
+      "lat": -31.9099404,
+      "lng": -71.5096775
     },
     "address": "Rengo 4581, Coquimbo 1800234, Chile",
     "phone": "+56 9 8982 0276",
@@ -433,8 +433,8 @@
     "description": "Actividades: Recorridos inclusivos por senderos de Áreas Naturales y centros invernales, tecnología asistiva, capacitaciones y seminarios, encuentros de inclusión y Buen Vivir",
     "classification": "Senderismo Inclusivo",
     "location": {
-      "lat": -33.4505095,
-      "lng": -70.5525608
+      "lat": -33.4521007,
+      "lng": -70.558107
     },
     "address": "Fernando Castillo Velasco 7440 casa 17, La Reina, Santiago",
     "phone": "+56 9 9331 8631",
