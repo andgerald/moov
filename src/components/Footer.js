@@ -12,17 +12,17 @@ class SiteFooter extends React.Component {
                 <div className="row">
                         <div className="column-1-of-3">
                           <div onClick={()=>this.props.changeState(1)} className="footerBox">
-                            <img alt="home" src={HomeIcon} />
+                            <img className="footerIcon" alt="home" src={HomeIcon} />
                           </div>
                         </div>
                         <div className="column-2-of-3">
-                            <div onClick={()=>this.props.changeState(2)} className="footerBox">
-                            <img alt="favorite" src={Favorite} /> 
+                            <div onClick={()=>this.props.changeState(1)} className="footerBox">
+                            <img className="footerIcon" alt="favorite" src={Favorite} /> 
                             </div>
                         </div>
                         <div className="column-3-of-3">
-                            <div onClick={()=>this.props.changeState(2)} className="footerBox">
-                            <img alt="map" src={Map} /> 
+                            <div onClick={()=>this.props.changeState(1)} className="footerBox">
+                            <img className="footerIcon" alt="map" src={Map} /> 
                             </div>
                         </div>
                     </div>
