@@ -372,7 +372,7 @@
     "phone": "(2)2426 2000",
     "contact": "--"
   },
-  
+
   {
     "id": "r02",
     "name": "Sanguchería La Inclusiva",
@@ -477,7 +477,7 @@
   },
   {
     "id": "ta05",
-    "name": "Wine Wein Tours Turismo enológico y cultural",
+    "name": "Wine Wein Tours",
     "img": "http://www.wineweintours.cl/admin/img/banner/imagen_banner_16_16.jpeg",
     "type": "Turismo Aventura",
     "accessibility": 3,
