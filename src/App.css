@@ -21,13 +21,13 @@ h3 {
 }
 
 /* padding para los contenedores de las paginas, exceto Home */
-.favoritePage,
+/* .favoritePage, */
 /* servicios */
-.container_,
+/* .container_,
 .aboutPage {
   padding: 2%;
   display: flex;
   justify-content: center;
   height: 100vh;
   background-color: white;
-}
+} */

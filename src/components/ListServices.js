@@ -13,7 +13,7 @@ class ListServices extends Component {
 
   componentDidMount = () => {
     let listaFiltrada = data.filter(element => {
-      return element.type === this.props.Type;
+      return element.type === this.props.type;
     });
 
     this.setState({
