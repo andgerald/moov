@@ -6,7 +6,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -20,6 +20,7 @@ class App extends Component {
             <MyNavBar />
             </Route>
           </Switch>
+          <Footer />
       </Router>
     );
   }

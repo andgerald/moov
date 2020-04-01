@@ -1,8 +1,8 @@
 header {
   width: 100%;
-  background-color: rgb(95, 95, 95);
+  background-color: #28a5eb;
   position: relative;
-  height: 100px;
+  height: 6.25rem;
 }
 
 .divLogo {
@@ -22,6 +22,32 @@ header {
   margin-left: 1rem;
 }
 
+.containerElemt{
+  display: flex;
+  padding-left:  15px;
+}
+.iconElem{
+  display: none;
+  width: 25px;
+}
+.containerElemt_{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.iconElem_{
+  display: none;
+  width: 35px;
+}
+.iconElem__{
+  display: none;
+  width: 30px;
+}
+
+
 .logo:hover {
   cursor: pointer;
 }
@@ -29,6 +55,7 @@ header {
 .nav-links {
   width: 100%;
   z-index: 1000;
+  padding-top: 0.625rem;
 }
 
 .nav-links ul {
@@ -52,13 +79,17 @@ header {
 header label {
   display: none;
   margin: 0 40px 0 0;
-  width: 30px;
-  height: 30px;
-  padding: 10px;
+  width: 1.875rem;
+  height: 1.875rem;
+  padding: 0.625rem;
 }
 
 header label:hover {
   cursor: pointer;
+}
+
+.navMapIcon {
+  display: none;
 }
 
 #toggle {
@@ -66,58 +97,7 @@ header label:hover {
 }
 
 @media only screen and (max-width: 768px) {
-    article,
-    aside,
-    figcaption,
-    figure,
-    footer,
-    header,
-    hgroup,
-    main,
-    nav,
-  section {
-      z-index: 1000 !important;
-    }
-  
 
-  header {
-    height: 100px;
-  }
-  .logo {
-    display: flex;
-    justify-content: center;
-  }
-  header label {
-    display: block;
-    cursor: pointer;
-    padding-top: 1.87rem;
-    padding-left: 1.25rem;
-
-  }
-
-  .nav-links {
-    width: 50%;
-    color: black;
-    background-color: white;
-    z-index: 1000;
-    display: none;
-  }
-  .nav-links ul {
-    flex-direction: column;
-    margin-top: 4rem;
-    text-align: center;
-    
-  }
-  
-  .nav-links li {
-    color: black;
-  }
-  #toggle:checked ~ .nav-links {
-    display: block;
-    margin: 0;
-  }
-}
-  
   article,
   aside,
   figcaption,
@@ -130,6 +110,106 @@ header label:hover {
   section {
     z-index: 1000 !important;
   }
+
+  .logo {
+    position: absolute;
+    left: 40% !important;
+  }
+
+  .navMapIcon {
+    display: block;
+    position: absolute;
+    left: 85%;
+    top: 40%;
+  }
+
+  header {
+    height: 6.25rem;
+  }
+
+  header label {
+    display: block;
+    cursor: pointer;
+    padding-top: 2.3rem;
+    padding-left: 1.25rem;
+
+  }
+
+  .nav-links {
+    width: 30%;
+    color: black;
+    background-color: white;
+    z-index: 1000;
+    display: none;
+    border: 1px solid #333;
+    border-radius: 5%;
+    margin-top: 7% !important;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    margin-top: 4rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  .nav-links li {
+    color: black;
+    /* border-bottom: 1px solid black; */
+    margin: 0;
+  }
+
+  /* .last-of-li {
+    border-bottom: none !important;
+  } */
+
+  #toggle:checked~.nav-links {
+    display: block;
+    margin: 0;
+  }
+  .containerElemt{
+    display: block;
+    display: flex;
+    padding-left:  15px;
+    border-bottom: 1px solid black;
+  }
+  .iconElem{
+    display: block;
+    width: 25px;
+  }
+  .containerElemt_{
+    display: block;
+      display: flex;
+      justify-content: space-between;
+      height: 45px;
+      padding-left: 10px;
+      padding-right: 15px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid black;
+  }
+  .iconElem_{
+    display: block;
+    width: 35px;
+  }
+  .iconElem__{
+    display: block;
+    width: 30px;
+  }
+
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  z-index: 1000 !important;
+}
 
 
 @media only screen and (max-width: 1024px) {
@@ -149,40 +229,45 @@ header label:hover {
   main,
   nav,
   section {
-  z-index: 1000 !important;
+    z-index: 1000 !important;
   }
 
 }
+
 @media only screen and (max-width: 480px) {
   .logo {
-    display: flex;
-    justify-content: center;
-    left: 30%;
+    width: 140px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: 28% !important;
+  }
+
+  .navMapIcon {
+    position: absolute;
+    top: 35%;
   }
 
   nav {
     z-index: 1000 !important;
   }
 
-.nav-links {
+  .nav-links {
     width: 50%;
-    background-color: white;
     z-index: 1000;
     display: none;
-}
+    margin-top: 13% !important;
+  }
 
-.nav-links ul {
-  flex-direction: column;
-  margin-top: 4rem;
-  text-align: center;
-}
-
-
+  .nav-links ul {
+    flex-direction: column;
+    margin-top: 4rem;
+    text-align: center;
+    margin: 0;
+  }
 
   #toggle:checked~.nav-links {
     display: block;
     margin: 0;
   }
 }
-
-

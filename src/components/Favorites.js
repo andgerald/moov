@@ -4,7 +4,7 @@ import '../App.css';
 class Favorites extends Component {
     render() {
         return (
-            <div className='App'>
+            <div className='favoritePage'>
                 <h1>Componente de los favoritos</h1>
             </div>
         );

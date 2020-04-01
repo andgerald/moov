@@ -1,7 +1,12 @@
 import React from "react";
-import house from "../assets/img/house.svg";
-import data from '../data.json';
-import PlayasBalnearios from '../assets/img/beach_icon.png'
+import house from "../assets/img/location-mark.png";
+import data from "../data.json";
+import restaurant from "../assets/img/restaurante.png";
+import hoteles from "../assets/img/hoteles.png";
+import museos from "../assets/img/museos.png";
+import turismoAventura from "../assets/img/turismoAventura.png";
+import playasBalnearios from "../assets/img/playaBalnearios.png";
+import parques from "../assets/img/parques.png";
 
 export default class DisplayMapClass extends React.Component {
   mapRef = React.createRef();
@@ -60,12 +65,12 @@ export default class DisplayMapClass extends React.Component {
             lat: position.coords.latitude,
             lng: position.coords.longitude
           });
-          this.state.map.setZoom(5);
+          this.state.map.setZoom(13);
 
           const customMarkerIcon = `
           <div> 
-          <img style='width: 30px; 'src='${house}'/> 
-          <p>Casa</p>
+          <img style='width: 40px; 'src='${house}'/> 
+          <p>Mi Ubicación</p>
           </div>`;
           const icon = new window.H.map.DomIcon(customMarkerIcon),
             coords = {
@@ -88,26 +93,41 @@ export default class DisplayMapClass extends React.Component {
 
   addMarkersToMap() {
     data.map(element => {
-      let view = '';
-      switch(element.type){
-        case 'Playas y Balnearios':
-          view = PlayasBalnearios;
+      let view = "";
+      switch (element.type) {
+        case "Restaurantes":
+          view = restaurant;
+          break;
+        case "Hoteles":
+          view = hoteles;
+          break;
+        case "Museos":
+          view = museos;
+          break;
+        case "Turismo Aventura":
+          view = turismoAventura;
+          break;
+        case "Playas y Balnearios":
+          view = playasBalnearios;
+          break;
+        case "Parques y Plazas":
+          view = parques;
           break;
       }
-      
+
       const customMarkerIcon = `
             <div> 
-            <img style='width: 40px; 'src='${view}'/> 
-            <p>${element.name}</p>
+            <img style='width: 30px; 'src='${view}'/> 
             </div>`;
-        const icon = new window.H.map.DomIcon(customMarkerIcon),
+      const icon = new window.H.map.DomIcon(customMarkerIcon),
         coords = { lat: element.location.lat, lng: element.location.lng },
         marker = new window.H.map.DomMarker(coords, { icon: icon });
-  
-      this.state.map.addObject(marker); 
 
-    })
+      this.state.map.addObject(marker);
+    });
+
   }
+
 
   componentWillUnmount() {
     // Cleanup after the map to avoid memory leaks when this component exits the page

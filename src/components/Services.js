@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../assets/css/services.css";
 import ListServices from "./ListServices";
-import SiteFooter from '../components/Footer';
+
 
 class Category extends Component {
   constructor() {

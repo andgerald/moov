@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import '../pages/home.css';
-import SiteFooter from '../components/Footer';
+
 
 class Home extends Component {
     render() {
@@ -33,7 +33,6 @@ class Home extends Component {
                         </Col>
                     </Row>
                 </Container>
-                <SiteFooter />
             </div>
         );
     }
