@@ -297,8 +297,8 @@
     "description": "Ingreso por ascensor, rampa de acceso ubicada por el acceso de calle Teatinos",
     "classification": "Institución cultural",
     "location": {
-      "lat": -33.442348,
-      "lng": -70.5621901
+      "lat": -33.44279098510742,
+      "lng": -70.65389251708984
     },
     "address": "Plaza de la Ciudadanía 26, Santiago, Región Metropolitana",
     "phone": "(2)2355 6500",
@@ -314,8 +314,8 @@
     "description": "El Planetario está preparado para recibir a personas con movilidad reducida, contando con accesos, ascensores y baños.",
     "classification": "Institución cultural",
     "location": {
-      "lat": -33.442348,
-      "lng": -70.5621901
+      "lat": -33.45460891723633,
+      "lng": -70.69343566894531
     },
     "address": "Av. Libertador Bernardo O’Higgins 3349, Estación Central, Santiago - Chile",
     "phone": " +56 2 2718 2900",
@@ -323,7 +323,7 @@
   },
   {
     "id": "h01",
-    "name": "MR Hotel (ex Hotel Neruda)",
+    "name": "MR Hotel",
     "img": "https://r-cf.bstatic.com/images/hotel/max1024x768/235/235960017.jpg",
     "type": "Hoteles",
     "accessibility": 3,
@@ -331,8 +331,8 @@
     "description": "Cuenta con estacionamiento de uso exclusivo de personas con movilidad reducida, lavamanos más bajo y WC con barras de apoyo.",
     "classification": "Alojamiento",
     "location": {
-      "lat": -33.4248019,
-      "lng": -70.6813559
+      "lat": -33.42280578613281,
+      "lng": -70.61328125
     },
     "address": "Avenida Pedro de Valdivia 164, Providencia",
     "phone": "+56 2266 33155",
@@ -348,8 +348,8 @@
     "description": "Cuenta con apoyo visual: carteles táctiles, braille; lavamanos más bajo y WC con barras de apoyo. Programas de hidroterapia, actividades lúdicas y trekking inclusivos para no videntes y personas con capacidad de desplazamiento reducidas",
     "classification": "Cabañas",
     "location": {
-      "lat": -33.4248019,
-      "lng": -70.6813559
+      "lat": -33.7889894,
+      "lng": -70.2264545
     },
     "address": "Camino al volcán 9716, San Jose de Maipo",
     "phone": "228711122",
@@ -365,30 +365,14 @@
     "description": "Cuenta con apoyo visual: carteles táctiles, braille; lavamanos más bajo y WC con barras de apoyo, acceso a pisos superiores en ascensor.",
     "classification": "Alojamiento",
     "location": {
-      "lat": -33.442348,
-      "lng": -70.5621901
+      "lat": -33.36671,
+      "lng": -70.49689
     },
     "address": "Av. Kennedy, 5741, Las Condes, Santiago",
     "phone": "(2)2426 2000",
     "contact": "--"
   },
-  {
-    "id": "r01",
-    "name": "Rancho el Añil",
-    "img": "https://r-cf.bstatic.com/images/hotel/max1024x768/177/177772871.jpg",
-    "type": "Restaurantes",
-    "accessibility": 4,
-    "details": ["Estacionamiento", "Rampas", "Servicios Higienicos"],
-    "description": "Cuenta con apoyo visual: carteles táctiles, braille; lavamanos más bajo y WC con barras de apoyo. Programas de hidroterapia, actividades lúdicas y trekking inclusivos para no videntes y personas con capacidad de desplazamiento reducidas",
-    "classification": "Alimentación",
-    "location": {
-      "lat": -33.7889894,
-      "lng": -70.2264545
-    },
-    "address": "Camino al volcán 9716, San Jose de Maipo",
-    "phone": "228711122",
-    "contact": "reservas@ranchoelanil.cl"
-  },
+  
   {
     "id": "r02",
     "name": "Sanguchería La Inclusiva",
