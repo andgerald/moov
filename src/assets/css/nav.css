@@ -22,6 +22,32 @@ header {
   margin-left: 1rem;
 }
 
+.containerElemt{
+  display: flex;
+  padding-left:  15px;
+}
+.iconElem{
+  display: none;
+  width: 25px;
+}
+.containerElemt_{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.iconElem_{
+  display: none;
+  width: 35px;
+}
+.iconElem__{
+  display: none;
+  width: 30px;
+}
+
+
 .logo:hover {
   cursor: pointer;
 }
@@ -129,18 +155,47 @@ header label:hover {
 
   .nav-links li {
     color: black;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     margin: 0;
   }
 
-  .last-of-li {
+  /* .last-of-li {
     border-bottom: none !important;
-  }
+  } */
 
   #toggle:checked~.nav-links {
     display: block;
     margin: 0;
   }
+  .containerElemt{
+    display: block;
+    display: flex;
+    padding-left:  15px;
+    border-bottom: 1px solid black;
+  }
+  .iconElem{
+    display: block;
+    width: 25px;
+  }
+  .containerElemt_{
+    display: block;
+      display: flex;
+      justify-content: space-between;
+      height: 45px;
+      padding-left: 10px;
+      padding-right: 15px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid black;
+  }
+  .iconElem_{
+    display: block;
+    width: 35px;
+  }
+  .iconElem__{
+    display: block;
+    width: 30px;
+  }
+
 }
 
 article,

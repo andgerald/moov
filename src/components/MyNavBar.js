@@ -9,6 +9,13 @@ import About from './About';
 import Accessibility from './Accessibility';
 import MenuIcon from '../assets/img/white-menu-button.png';
 import Map from '../assets/img/map-icon.png';
+import iconMapa from '../assets/img/iconMapa.svg';
+import iconServicios from '../assets/img/iconServicios.svg';
+import iconFavoritos from '../assets/img/iconFavoritos.svg';
+import iconAcercaDe from '../assets/img/iconAcercaDe.svg';
+import iconHome from '../assets/img/iconHome.svg';
+import iconBack from '../assets/img/iconBack.svg';
+
 
 
 class MyNavBar extends React.Component {
@@ -59,11 +66,26 @@ class MyNavBar extends React.Component {
         <img className="navMapIcon" alt="mapIcon" src={Map} onClick={()=> this.changeState(1)} href="#Maps" />
           <nav className="nav-links">
             <ul>
+              <div className='containerElemt_'>
+              <img className='iconElem_' src={iconHome}/>
+              <img className='iconElem__' src={iconBack}/>
+              </div>
+              <div className='containerElemt'>
+              <img className='iconElem' src={iconMapa}/>
               <div onClick={()=> this.changeState(1)} href="#Maps"><li>Mapa</li></div>
+              </div>
+              <div className='containerElemt'>
+              <img className='iconElem' src={iconServicios}/>  
               <div onClick={()=> this.changeState(2)} href="#Services"><li>Servicios</li></div>
+              </div>
+              <div className='containerElemt'>
+              <img className='iconElem' src={iconFavoritos}/>  
               <div onClick={()=> this.changeState(3)} href="#Favorities"><li>Favoritos</li></div>
+              </div>
+              <div className='containerElemt'>
+              <img className='iconElem' src={iconAcercaDe}/> 
               <div onClick={()=> this.changeState(4)} href="#About"><li>Acerca de</li></div>
-              <div onClick={()=> this.changeState(5)} href="#Accessibility"><li className="last-of-li">Accesibilidad</li></div>
+              </div>
             </ul>
           </nav>
       </header>
