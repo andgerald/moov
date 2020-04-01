@@ -15,7 +15,7 @@ import iconFavoritos from '../assets/img/iconFavoritos.svg';
 import iconAcercaDe from '../assets/img/iconAcercaDe.svg';
 import iconHome from '../assets/img/iconHome.svg';
 import iconBack from '../assets/img/iconBack.svg';
-
+import Footer from '../components/Footer';
 
 
 class MyNavBar extends React.Component {
@@ -90,6 +90,8 @@ class MyNavBar extends React.Component {
           </nav>
       </header>
       <div>{this.getActivePage()}</div>
+      {/* Pasamos la funcion changeState por props a este components por eso bindeamos */}
+      <Footer changeState={this.changeState.bind(this)}/>
       </div>
     );
   }

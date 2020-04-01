@@ -7,6 +7,7 @@ import museos from "../assets/img/museos.png";
 import turismoAventura from "../assets/img/turismoAventura.png";
 import playasBalnearios from "../assets/img/playaBalnearios.png";
 import parques from "../assets/img/parques.png";
+import '../assets/css/maps.css';
 
 export default class DisplayMapClass extends React.Component {
   mapRef = React.createRef();
@@ -69,8 +70,7 @@ export default class DisplayMapClass extends React.Component {
 
           const customMarkerIcon = `
           <div> 
-          <img style='width: 40px; 'src='${house}'/> 
-          <p>Mi Ubicación</p>
+          <img style='width: 45px; 'src='${house}'/> 
           </div>`;
           const icon = new window.H.map.DomIcon(customMarkerIcon),
             coords = {
@@ -116,8 +116,8 @@ export default class DisplayMapClass extends React.Component {
       }
 
       const customMarkerIcon = `
-            <div> 
-            <img style='width: 30px; 'src='${view}'/> 
+            <div style='display: flex;'> 
+            <img style='width: 35px; 'src='${view}'/> 
             </div>`;
       const icon = new window.H.map.DomIcon(customMarkerIcon),
         coords = { lat: element.location.lat, lng: element.location.lng },

@@ -9,6 +9,10 @@ import {
 import Footer from './components/Footer';
 
 class App extends Component {
+
+
+
+
   render() {
     return (
       <Router>
@@ -20,7 +24,6 @@ class App extends Component {
             <MyNavBar />
             </Route>
           </Switch>
-          <Footer />
       </Router>
     );
   }

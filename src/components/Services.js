@@ -37,7 +37,7 @@ class Category extends Component {
           </div>
         );
       } else {
-         return <ListServices type={this.state.typePage}/>
+         return <ListServices Type={this.state.typePage}/>
       }  
     }
 }
