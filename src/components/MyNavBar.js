@@ -67,23 +67,23 @@ class MyNavBar extends React.Component {
           <nav className="nav-links">
             <ul>
               <div className='containerElemt_'>
-              <img className='iconElem_' src={iconHome}/>
-              <img className='iconElem__' src={iconBack}/>
+              <img alt="icon" className='iconElem_' src={iconHome}/>
+              <img alt="icon" className='iconElem__' src={iconBack}/>
               </div>
               <div className='containerElemt'>
-              <img className='iconElem' src={iconMapa}/>
+              <img alt="icon" className='iconElem' src={iconMapa}/>
               <div onClick={()=> this.changeState(1)} href="#Maps"><li>Mapa</li></div>
               </div>
               <div className='containerElemt'>
-              <img className='iconElem' src={iconServicios}/>  
+              <img alt="icon" className='iconElem' src={iconServicios}/>  
               <div onClick={()=> this.changeState(2)} href="#Services"><li>Servicios</li></div>
               </div>
               <div className='containerElemt'>
-              <img className='iconElem' src={iconFavoritos}/>  
+              <img alt="icon" className='iconElem' src={iconFavoritos}/>  
               <div onClick={()=> this.changeState(3)} href="#Favorities"><li>Favoritos</li></div>
               </div>
               <div className='containerElemt'>
-              <img className='iconElem' src={iconAcercaDe}/> 
+              <img alt="icon" className='iconElem' src={iconAcercaDe}/> 
               <div onClick={()=> this.changeState(4)} href="#About"><li>Acerca de</li></div>
               </div>
             </ul>

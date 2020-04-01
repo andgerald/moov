@@ -31,7 +31,7 @@ class ListServices extends Component {
         <div className="container_">
           {this.state.data.map(current => {
             return (
-              <div className="elementos_" key={current.id}>
+              <div className="elementos_" id="elementos_" key={current.id}>
                 <img alt="itemImg" className="itemImg" src={`${current.img}`} />
                 <h1 className="name">{current.name}</h1>
                 <StarRatings

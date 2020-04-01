@@ -40,3 +40,43 @@
   background-color: #28a5eb !important;
   padding-bottom: 1%;
 }
+
+#elementos_ {
+  background-color: #ffecd5;
+}
+
+#museums {
+  background-image: url('../img/museos.jpg');
+  background-position: bottom;
+}
+
+#restaurants {
+  background-image: url('../img/servicios-restaurantes.jpg');
+  background-position: bottom;
+}
+
+#hotels {
+  background-image: url('../img/servicios-hoteles.jpg');
+  background-position: center;
+}
+
+#adventure {
+  background-image: url('../img/servicios-turismo-aventura.jpg');
+  background-position: center;
+}
+
+#beach {
+  background-image: url('../img/servicios-playas.jpg');
+  background-position: bottom;
+}
+
+#park {
+  background-image: url('../img/servicios-parques.jpg');
+  background-position: top;
+}
+
+@media only screen and (max-width: 480px) {
+  .itemServices {
+    font-size: 23px;
+  }
+}
