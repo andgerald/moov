@@ -1,48 +1,49 @@
-import React, { Component, Fragment } from "react";
+import React, { Component, Fragment } from 'react';
+import '../assets/css/listServices.css';
 import data from "../data.json";
-import "../assets/css/listServices.css";
 import StarRatings from "react-star-ratings";
 import { Modal } from "react-bootstrap";
 import iconClose from '../assets/img/times-circle-solid.svg'
-class ListServices extends Component {
-  constructor() {
-    super();
-    this.state = {
-      data: data,
-      modal: false, 
-      target: {}
-    };
-  }
 
-  handleCloseModal = () => {
-    this.setState({
-      modal: false
-    });
-  };
+class Transport extends Component {
 
-  handleShowModal = (current) => {
-    this.setState({
-      target: current,
-      modal: true
-    });
-  };
+    constructor() {
+        super();
+        this.state = {
+          data: data,
+          modal: false, 
+          target: {}
+        };
+      }
+    
+      handleCloseModal = () => {
+        this.setState({
+          modal: false
+        });
+      };
+    
+      handleShowModal = (current) => {
+        this.setState({
+          target: current,
+          modal: true
+        });
+      };
+    
+      componentDidMount = () => {
+        let listaFiltrada = data.filter(element => {
+          return element.type === 'terminales y aeropuertos';
+        });
+    
+        this.setState({
+          data: listaFiltrada
+        });
+      };
 
-  componentDidMount = () => {
-    let listaFiltrada = data.filter(element => {
-      return element.type === this.props.type;
-    });
-
-    this.setState({
-      data: listaFiltrada
-    });
-  };
-
-  render() {
-    // Mapea y muestra cada uno de los elementos del array
-    return (
-      <Fragment>
+    render() {
+        return (
+        <Fragment>
         <div className="type">
-          <p>Servicios > {this.props.type}</p>
+          <p>Servicios > Transporte  </p>
         </div>
         <div className="container_">
           {this.state.data.map(current => {
@@ -96,8 +97,8 @@ class ListServices extends Component {
           </Modal >
         </>
       </Fragment>
-    );
-  }
+        );
+    }
 }
 
-export default ListServices;
+export default Transport;

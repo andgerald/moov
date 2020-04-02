@@ -15,10 +15,10 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="row-home">
-                        <div onClick={()=>this.props.changeState(3)} className="column-home" id="home-favorits">
+                        <div onClick={()=>this.props.changeState(4)} className="column-home" id="home-favorits">
                           <p>Favoritos</p>    
                         </div>
-                        <div className="column-home" id="home-about">
+                        <div onClick={()=>this.props.changeState(3)} className="column-home" id="home-about">
                           <p>Transporte</p>
                         </div>
                     </div>
