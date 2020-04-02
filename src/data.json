@@ -348,8 +348,8 @@
     "description": "El museo cuenta con tres pisos en el que se encuentran exhibidos diversos artículos relativos al tema . periódicos y revistas, afiches, cartas y fotografías",
     "classification": "Institución cultural",
     "location": {
-      "lat": -33.4269873,
-      "lng": -70.656324
+      "lat": -33.4397436,
+      "lng": -70.6794048
     },
     "address": "Matucana 501, Santiago, Chile",
     "phone": "(2) 2597 9600",
@@ -365,8 +365,8 @@
     "description": "Es un lugar de encuentro, el centro alberga diez salas para teatro, danza, música, artes visuales y ensayo.",
     "classification": "Institución cultural",
     "location": {
-      "lat": -33.4301801,
-      "lng": -70.618369
+      "lat": -33.4382012,
+      "lng": -70.6381782
     },
     "address": "Avenida libertador Bernardo O'Higgins 227, barrio Lastarria, Santiago, Chile",
     "phone": "(2) 2566 5500",
@@ -382,8 +382,8 @@
     "description": "El MAVI se ha consolidado como un espacio independiente, de gran prestigio dentro del medio del arte contemporáneo nacional e internacional. Horario: lunes a viernes  11:00–19:00",
     "classification": "Institución cultural",
     "location": {
-      "lat": -33.4309718,
-      "lng": -70.6186549
+      "lat": -33.4376552,
+      "lng": -70.640934
     },
     "address": "José Victorino Lastarria 307, Santiago, Chile",
     "phone": "(2) 2664 9337",
@@ -399,8 +399,8 @@
     "description": "Museo de arte y centro cultural , busca conservar y promover la obra de la artista chilena Violeta Parra. Horario : Abierto de martes a domingo de 9:30 a 18:00",
     "classification": "Institución cultural",
     "location": {
-      "lat": -33.4349962,
-      "lng": -70.6135581
+      "lat": -33.4381078,
+      "lng": -70.6215207
     },
     "address": "Vicuña Mackenna 37, Santiago, Chile",
     "phone": "(2) 2355 4600",
@@ -416,8 +416,8 @@
     "description": "Cuenta con estacionamiento de uso exclusivo de personas con movilidad reducida, lavamanos más bajo y WC con barras de apoyo.",
     "classification": "Alojamiento",
     "location": {
-      "lat": -33.4301989,
-      "lng": -70.5959462
+      "lat": -33.4248622,
+      "lng": -70.6112662
     },
     "address": "Avenida Pedro de Valdivia 164, Providencia",
     "phone": "+56 2266 33155",
@@ -433,8 +433,8 @@
     "description": "Cuenta con apoyo visual: carteles táctiles, braille; lavamanos más bajo y WC con barras de apoyo. Programas de hidroterapia, actividades lúdicas y trekking inclusivos para no videntes y personas con capacidad de desplazamiento reducidas",
     "classification": "Cabañas",
     "location": {
-      "lat": -33.5242633,
-      "lng": -70.5881251
+      "lat": -33.7889894,
+      "lng": -70.2264545
     },
     "address": "Camino al volcán 9716, San Jose de Maipo",
     "phone": "228711122",
@@ -450,8 +450,8 @@
     "description": "Cuenta con apoyo visual: carteles táctiles, braille; lavamanos más bajo y WC con barras de apoyo, acceso a pisos superiores en ascensor.",
     "classification": "Alojamiento",
     "location": {
-      "lat": -33.4200159,
-      "lng": -70.6154805
+      "lat": -33.398475646972656,
+      "lng": -70.57193756103516
     },
     "address": "Av. Kennedy, 5741, Las Condes, Santiago",
     "phone": "(2)2426 2000",
@@ -467,8 +467,8 @@
     "description": "El hotel también ofrece un completo servicio inclusivo, el cual apunta a recibir en sus instalaciones a personas con movilidad reducida.",
     "classification": "Alojamiento",
     "location": {
-      "lat": -37.282922,
-      "lng": -76.3581143
+      "lat": -41.3142466,
+      "lng": -72.9837034
     },
     "address": "Klenner 349, 5550000, Puerto Varas, Chile",
     "phone": "(65) 220 1000",
@@ -484,8 +484,8 @@
     "description": "Ofrece alojamiento, centro de fitness, restaurante y conexión WiFi de alta velocidad.",
     "classification": "Alojamiento",
     "location": {
-      "lat": -33.4288831,
-      "lng": -70.5918895
+      "lat": -33.4155426,
+      "lng": -70.6039561
     },
     "address": "Avenida Vitacura 2727, Las Condes, Santiago",
     "phone": "(2) 2587 7000",
@@ -501,8 +501,8 @@
     "description": "En Santiago, a 1,9 km del centro comercial Costanera Center, y ofrece alojamiento con restaurante, aparcamiento privado, centro de fitness y bar.",
     "classification": "Alojamiento",
     "location": {
-      "lat": -33.432409,
-      "lng": -70.5912788
+      "lat": -33.4227057,
+      "lng": -70.6027309
     },
     "address": "Avenida Holanda 222 Providencia, Santiago",
     "phone": "(2) 2606 2222",
@@ -518,10 +518,10 @@
     "description": "El Holiday Inn Santiago Airport ofrece alojamiento justo enfrente del aeropuerto internacional de Santiago-Comodoro Arturo Merino Benítez.",
     "classification": "Alojamiento",
     "location": {
-      "lat": -33.4003786,
-      "lng": -70.7432043
+      "lat": -33.42398,
+      "lng": -70.85493
     },
-    "address": "Armando Cortinez Norte, 2150 , Santiago , Pudahuel",
+    "address": "Armando Cortinez Norte, 2150, Santiago ,Pudahuel",
     "phone": "(2) 2799 9900",
     "contact": "https://www.holidayinn.cl/hotel-aeropuerto-santiago/"
   },
@@ -535,8 +535,8 @@
     "description": "El Rancho El Añil se encuentra en San José de Maipo y cuenta con restaurante, bar, salón compartido y jardín. Ofrece habitaciones familiares y parque infantil. El hotel cuenta con piscina al aire libre, piscina cubierta, animación nocturna y servicio de habitaciones.",
     "classification": "Alimentación",
     "location": {
-      "lat": -33.5129501,
-      "lng": -70.5881251
+      "lat": -33.7889894,
+      "lng": -70.2264545
     },
     "address": "Camino al volcán 9716, San Jose de Maipo",
     "phone": "228711122",
@@ -586,8 +586,8 @@
     "description": "Con el concepto de Brasserie Francesa utilizando ingredientes gastronómicos chilenos y recetas típicas francesas. Hoy en día, el Castillo está catalogado como Patrimonio Nacional",
     "classification": "Alimentación",
     "location": {
-      "lat": -33.4164817,
-      "lng": -70.6152461
+      "lat": -33.2083869,
+      "lng": -70.6806477
     },
     "address": "Av. Cardenal Jose María Caro 390  Parque Forestal, Santiago",
     "phone": "+56 9 4444 853",
@@ -603,8 +603,8 @@
     "description": "Betahaus es un espacio colaborativo, es un café y resto-bar. Horario: lun - vie   08:00 - 20:00",
     "classification": "Alimentación",
     "location": {
-      "lat": -33.416992,
-      "lng": -70.6147537
+      "lat": -33.4254841,
+      "lng": -70.620747
     },
     "address": "Gral Calderón 127, Providencia, Región Metropolitana",
     "phone": "+56 9 7477 6093",
@@ -620,8 +620,8 @@
     "description": "Local Amplio , acondicionado con rampas y baño espacioso. Horario: Lu. a Sá., 12.30 PM a 2 AM.",
     "classification": "Alimentación",
     "location": {
-      "lat": -33.416992,
-      "lng": -70.6147537
+      "lat": -33.4326678,
+      "lng": -70.6361261
     },
     "address": "Pío Nono 160B, Bellavista, Santiago, Región Metropolitana",
     "phone": "+56226390072",
@@ -637,8 +637,8 @@
     "description": " La pizzería de estilo neoyorkino Rocco's Pizzas es un lugar informal caracterizado por su amplia variedad de pizzas. Horario: Do a Ju de 12 a 02 hrs, Vi y Sa de 12 a 03 hrs.",
     "classification": "Alimentación",
     "location": {
-      "lat": -33.416992,
-      "lng": -70.6147537
+      "lat": -33.4339692,
+      "lng": -70.6355438
     },
     "address": "Pío Nono 59, Bellavista, Santiago, Región Metropolitana",
     "phone": "(2) 2498757",
@@ -756,8 +756,8 @@
     "description": "Programa de Rehabilitación para niños y jóvenes con diferentes discapacidades. Ski adaptado, surf, Trekking , Canopy , Hidroterapia  y Actividades Recreativo-Educativas",
     "classification": "Aereopuerto internacional",
     "location": {
-      "lat": -33.4080783,
-      "lng": -70.814205
+      "lat": -33.3886793,
+      "lng": -70.7941739
     },
     "address": "Avenida Armando Cortinez Norte 2150, Pudahuel, Región Metropolitana",
     "phone": "(2) 2690 1796",
@@ -773,8 +773,8 @@
     "description": "Servicio MetroTren es una importante alternativa de transporte para miles de personas que viven fuera de Santiago.",
     "classification": "Terminal de trenes",
     "location": {
-      "lat": -33.4296959,
-      "lng": -70.6448829
+      "lat": -33.44863510131836,
+      "lng": -70.6709976196289
     },
     "address": "Av Libertador Bernardo O'Higgins 3170, Santiago, Estación Central, Región Metropolitana",
     "phone": "600 585 5000 o 22 585 5000",
@@ -790,8 +790,8 @@
     "description": "El Terminal de Buses de Santiago (Terminal Sur) es el principal y más importante de Santiago por la cantidad de destinos, además de contar con servicios internacionales.",
     "classification": "Terminal de buses",
     "location": {
-      "lat": -33.430621,
-      "lng": -70.6495508
+      "lat": -33.4539158,
+      "lng": -70.6888961
     },
     "address": "Nicasio Retamales 44, Santiago Estación Central Región Metropolitana, Chile",
     "phone": "+56 2 7760 236",
@@ -807,8 +807,8 @@
     "description": "La estación de Metro Universidad de Santiago está justo a la salida del terminal Alameda, ademas tiene conexión directa subterránea con el Terminal de Buses de Santiago.",
     "classification": "Terminal de buses",
     "location": {
-      "lat": -33.4302721,
-      "lng": -70.6478113
+      "lat": -33.4540074,
+      "lng": -70.6872218
     },
     "address": "Avenida Bernardo O’Higgins 3750 Comuna Estación Central, Santiago, Región Metropolitana, Chile",
     "phone": "22 8227500 - 22 8227589",
@@ -824,8 +824,8 @@
     "description": "Terminal San Borja es el terminal de buses más moderno de Chile y de Santiago, remodelado completamente en 2007. Se encuentra en la estación de Metro Estación Central, junto con el centro comercial Arauco Estación.",
     "classification": "Terminal de buses",
     "location": {
-      "lat": -33.4302721,
-      "lng": -70.6478113
+      "lat": -33.4545172,
+      "lng": -70.6798752
     },
     "address": "Avenida Bernardo O’Higgins 3750 Comuna Estación Central, Santiago, Región Metropolitana, Chile",
     "phone": "(2) 2776 0645",
