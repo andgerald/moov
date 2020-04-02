@@ -67,7 +67,7 @@ class MyNavBar extends React.Component {
           <nav className="nav-links">
             <ul>
               <div className='containerElemt_'>
-              <img alt="icon" className='iconElem_' src={iconHome}/>
+              <img alt="icon" onClick={()=> this.changeState(0)} className='iconElem_' src={iconHome}/>
               <img alt="icon" className='iconElem__' src={iconBack}/>
               </div>
               <div className='containerElemt'>
