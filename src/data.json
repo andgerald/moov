@@ -830,5 +830,91 @@
     "address": "Avenida Bernardo O’Higgins 3750 Comuna Estación Central, Santiago, Región Metropolitana, Chile",
     "phone": "(2) 2776 0645",
     "contact": "https://www.chilepasajes.cl/es/terminales/terminal-alameda"
+  },
+  {
+    "id": "f01",
+    "name": "Playa El Laucho",
+    "img": "https://www.costachinchorro.cl/web/wp-content/uploads/2018/12/DSCF5041.jpg",
+    "type": "favoritos",
+    "accessibility": 4,
+    "details": ["Estacionamiento", "Rampas", "Servicios Higienicos"],
+    "description": "El Laucho es una pequeña playa apta para el baño que cuenta con medidas de accesibilidad para personas con movilidad reducida.",
+    "classification": "Playa",
+    "location": {
+      "lat": -18.441337,
+      "lng": -70.295648
+    },
+    "address": "Playa El Laucho, Arica, Arica y Parinacota",
+    "phone": "--",
+    "contact": "--"
+  },
+  {
+    "id": "f02",
+    "name": "Paseo Quinta",
+    "img": "https://i.pinimg.com/originals/4b/0a/b0/4b0ab0ae39ade00f21c071a18058dfce.jpg",
+    "type": "favoritos",
+    "accessibility": 4,
+    "details": ["Estacionamiento", "Rampas", "Servicios Higienicos"],
+    "description": "Cuenta con una superficie de madera sobre la arena para facilitar el desplazamiento.",
+    "classification": "Borde Costero",
+    "location": {
+      "lat": -33.0244834,
+      "lng": -71.5561448
+    },
+    "address": "Paseo Quinta, Viña del Mar",
+    "phone": "--",
+    "contact": "--"
+  },
+  {
+    "id": "f03",
+    "name": "Wine Wein Tours",
+    "img": "http://www.wineweintours.cl/admin/img/banner/imagen_banner_16_16.jpeg",
+    "type": "favoritos",
+    "accessibility": 3,
+    "details": ["Rampas", "Servicios Higienicos"],
+    "description": "Tours de vino en Chile entre los valles de Aconcagua y Maule enfocado a los amantes del vino y la cultura.",
+    "classification": "Actividades al aire libre",
+    "location": {
+      "lat": -33.4322666,
+      "lng": -70.579664
+    },
+    "address": "Callao 3037, Las Condes, Santiago",
+    "phone": "+56 9 97338918",
+    "contact": "contacto@wineweintours.cl"
+  },
+  {
+    "id": "f04",
+    "name": "Museo de Artes visuales",
+    "img": "https://www.barriolastarria.com/imagenes/mavi/museo_artes_visuales_mavi_barrio_lastarria_foto_03.jpg",
+    "type": "favoritos",
+    "accessibility": 4,
+    "details": ["Estacionamiento", "Rampas", "Servicios Higienicos", "Ascensor"],
+    "description": "El MAVI se ha consolidado como un espacio independiente, de gran prestigio dentro del medio del arte contemporáneo nacional e internacional. Horario: lunes a viernes  11:00–19:00",
+    "classification": "favoritos",
+    "location": {
+      "lat": -33.4376552,
+      "lng": -70.640934
+    },
+    "address": "José Victorino Lastarria 307, Santiago, Chile",
+    "phone": "(2) 2664 9337",
+    "contact": "https://www.mavi.cl/"
+  },
+  {
+    "id": "f05",
+    "name": "Parque Nacional Fray Jorge",
+    "img": "https://ovallehoy.cl/wp-content/uploads/2019/07/parque_nacional_fray_jorge_foto.jpg",
+    "type": "favoritos",
+    "accessibility": 4,
+    "details": ["Estacionamiento", "Rampas", "Servicios Higienicos"],
+    "description": "Cuenta con sendero para personas con movilidad reducida , baños accesible y  mirador. Actualmente, se encuentra en proceso de mejoramiento",
+    "classification": "Parque Nacional",
+    "location": {
+      "lat": -30.6802494,
+      "lng": -71.666126
+    },
+    "address": "Parque Nacional Bosque de Fray Jorge, Cruce Longitudinal (Cerrillos Pobres) - Fray Jorge, Ovalle, Chile",
+    "phone": "(56) 512244769",
+    "contact": "coquimbo.oirs@conaf.cl."
   }
+
 ]
