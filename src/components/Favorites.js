@@ -43,7 +43,7 @@ class Favorites extends Component {
         return (
         <Fragment>
         <div className="type">
-          <p>Servicios > Transporte  </p>
+          <p>Transporte  </p>
         </div>
         <div className="container_">
           {this.state.data.map(current => {

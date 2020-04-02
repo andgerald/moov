@@ -748,7 +748,7 @@
   },
   {
     "id": "tsp01",
-    "name": "Aeropuerto Arturo Merino Benítez SCL",
+    "name": "Arturo Merino Benítez",
     "img": "https://media.cnnchile.com/sites/2/2018/11/AEROPUERTO-740x430.jpg",
     "type": "terminales y aeropuertos",
     "accessibility": 4,
@@ -765,7 +765,7 @@
   },
   {
     "id": "tsp02",
-    "name": "Tren Central Alameda-Rancagua-Chillán",
+    "name": "Tren Central",
     "img": "https://www.trencentral.cl/wp-content/uploads/2017/10/filmaciones_03_full.jpg",
     "type": "terminales y aeropuertos",
     "accessibility": 3,
@@ -782,7 +782,7 @@
   },
   {
     "id": "tsp03",
-    "name": "Terminal Sur en Santiago de Chile",
+    "name": "Terminal Sur SCL",
     "img": "https://www.infodebuses.cl/wp-content/uploads/2017/05/Terminal-sur-1.jpg",
     "type": "terminales y aeropuertos",
     "accessibility": 3,
@@ -799,7 +799,7 @@
   },
   {
     "id": "tsp04",
-    "name": "Terminal Alameda (Tur bus) Santiago",
+    "name": "Terminal Alameda SCL",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Terminal_Alameda.jpg/1200px-Terminal_Alameda.jpg",
     "type": "terminales y aeropuertos",
     "accessibility": 3,
