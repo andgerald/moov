@@ -254,12 +254,29 @@
     "contact": "--"
   },
   {
+    "id": "pp06",
+    "name": "Reserva Nacional Río Clarillo",
+    "img": "https://media.cnnchile.com/sites/2/2020/02/rio-clarillo-0402-740x430.jpg",
+    "type": "Parques y Plazas",
+    "accessibility": 4,
+    "details": ["Estacionamiento", "Rampas", "Servicios Higienicos"],
+    "description": "En el sector Los Quillayes, se cuenta con baños accesibles, 4 sitios de merienda y un mirador con accesibilidad. Además, existe un tramo de sendero de 100 metros lineales para personas con movilidad reducida, que permite el acceso al sector Quillayes. El sector cuenta con estacionamiento habilitado para este segmento de la población. Horario:  ingreso: 8:00 a 17:00 horas, salida: 18 horas",
+    "classification": "Plazas",
+    "location": {
+      "lat": -33.442348,
+      "lng": -70.5621901
+    },
+    "address": "Río Clarillo National Reserve, Región Metropolitana",
+    "phone": "(+56)2 2328 0339",
+    "contact": "metropolitana.oirs@conaf.cl"
+  },
+  {
     "id": "m01",
     "name": "Museo Arte Colonial San Francisco Cultural",
     "img": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Museo_Colonial_-_Santiago.jpg",
     "type": "Museos",
     "accessibility": 5,
-    "details": ["Estacionamiento", "Rampas", "Servicios Higienicos", "folletos en formato braille", "contraste para personas que poseen baja visión"],
+    "details": ["Estacionamiento", "Rampas", "Servicios Higienicos", "Folletos en formato braille", "Contraste para personas que poseen baja visión"],
     "description": "El Museo de Arte Colonial San Francisco, cuenta desde el año 2015 con un proyecto inclusivo y multisensorial el cual contempla visitas guiadas para personas en situación de discapacidad física o psíquica; rampas de acceso en la entrada y en las distintas salas del museo para personas con movilidad reducida; folletos del museo diseñados de forma sencilla apoyado con imágenes para ser entendidos por todo tipo de público; folletos en formato braille y en contraste para personas que poseen baja visión; placas en formato braille al inicio de cada sala que señalan el nombre y una breve descripción de la misma, y un baño habilitado para personas en situación de discapacidad. ",
     "classification": "Institución cultural",
     "location": {
@@ -285,7 +302,7 @@
     },
     "address": "Avenida Punta Arenas 6711, La Granja",
     "phone": "(2)2828 8000",
-    "contact": "--"
+    "contact": "https://www.mim.cl/"
   },
   {
     "id": "m03",
@@ -318,8 +335,76 @@
       "lng": -70.69343566894531
     },
     "address": "Av. Libertador Bernardo O’Higgins 3349, Estación Central, Santiago - Chile",
-    "phone": " +56 2 2718 2900",
+    "phone": "+56 2 2718 2900",
     "contact": "reserva@planetariochile.cl"
+  },
+  {
+    "id": "m05",
+    "name": "Museo de la Memoria",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Museo_de_la_Memoria_y_los_Derechos_Humanos.jpg/1200px-Museo_de_la_Memoria_y_los_Derechos_Humanos.jpg",
+    "type": "Museos",
+    "accessibility": 4,
+    "details": ["Estacionamiento", "Rampas", "Servicios Higienicos", "Ascensor"],
+    "description": "El museo cuenta con tres pisos en el que se encuentran exhibidos diversos artículos relativos al tema . periódicos y revistas, afiches, cartas y fotografías",
+    "classification": "Institución cultural",
+    "location": {
+      "lat": -33.4269873,
+      "lng": -70.656324
+    },
+    "address": "Matucana 501, Santiago, Chile",
+    "phone": "(2) 2597 9600",
+    "contact": "https://ww3.museodelamemoria.cl/ "
+  },
+  {
+    "id": "m06",
+    "name": "Centro cultural Gam",
+    "img": "https://cdn.plataformaurbana.cl/wp-content/uploads/2012/05/1336105437_45-528x352.jpg",
+    "type": "Museos",
+    "accessibility": 4,
+    "details": ["Estacionamiento", "Rampas", "Servicios Higienicos", "Ascensor"],
+    "description": "Es un lugar de encuentro, el centro alberga diez salas para teatro, danza, música, artes visuales y ensayo.",
+    "classification": "Institución cultural",
+    "location": {
+      "lat": -33.4301801,
+      "lng": -70.618369
+    },
+    "address": "Avenida libertador Bernardo O'Higgins 227, barrio Lastarria, Santiago, Chile",
+    "phone": "(2) 2566 5500",
+    "contact": "https://www.gam.cl/"
+  },
+  {
+    "id": "m07",
+    "name": "Museo de Artes visuales",
+    "img": "https://www.barriolastarria.com/imagenes/mavi/museo_artes_visuales_mavi_barrio_lastarria_foto_03.jpg",
+    "type": "Museos",
+    "accessibility": 4,
+    "details": ["Estacionamiento", "Rampas", "Servicios Higienicos", "Ascensor"],
+    "description": "El MAVI se ha consolidado como un espacio independiente, de gran prestigio dentro del medio del arte contemporáneo nacional e internacional. Horario: lunes a viernes  11:00–19:00",
+    "classification": "Institución cultural",
+    "location": {
+      "lat": -33.4309718,
+      "lng": -70.6186549
+    },
+    "address": "José Victorino Lastarria 307, Santiago, Chile",
+    "phone": "(2) 2664 9337",
+    "contact": "https://www.mavi.cl/"
+  },
+  {
+    "id": "m08",
+    "name": "Museo Violeta Parra",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Museo_Violeta_Parra_-entrada_f01.jpg",
+    "type": "Museos",
+    "accessibility": 4,
+    "details": ["Estacionamiento", "Rampas", "Servicios Higienicos", "Ascensor"],
+    "description": "Museo de arte y centro cultural , busca conservar y promover la obra de la artista chilena Violeta Parra. Horario : Abierto de martes a domingo de 9:30 a 18:00",
+    "classification": "Institución cultural",
+    "location": {
+      "lat": -33.4349962,
+      "lng": -70.6135581
+    },
+    "address": "Vicuña Mackenna 37, Santiago, Chile",
+    "phone": "(2) 2355 4600",
+    "contact": "https://museovioletaparra.cl/"
   },
   {
     "id": "h01",
@@ -331,8 +416,8 @@
     "description": "Cuenta con estacionamiento de uso exclusivo de personas con movilidad reducida, lavamanos más bajo y WC con barras de apoyo.",
     "classification": "Alojamiento",
     "location": {
-      "lat": -33.42280578613281,
-      "lng": -70.61328125
+      "lat": -33.4301989,
+      "lng": -70.5959462
     },
     "address": "Avenida Pedro de Valdivia 164, Providencia",
     "phone": "+56 2266 33155",
@@ -348,8 +433,8 @@
     "description": "Cuenta con apoyo visual: carteles táctiles, braille; lavamanos más bajo y WC con barras de apoyo. Programas de hidroterapia, actividades lúdicas y trekking inclusivos para no videntes y personas con capacidad de desplazamiento reducidas",
     "classification": "Cabañas",
     "location": {
-      "lat": -33.7889894,
-      "lng": -70.2264545
+      "lat": -33.5242633,
+      "lng": -70.5881251
     },
     "address": "Camino al volcán 9716, San Jose de Maipo",
     "phone": "228711122",
@@ -365,12 +450,97 @@
     "description": "Cuenta con apoyo visual: carteles táctiles, braille; lavamanos más bajo y WC con barras de apoyo, acceso a pisos superiores en ascensor.",
     "classification": "Alojamiento",
     "location": {
-      "lat": -33.36671,
-      "lng": -70.49689
+      "lat": -33.4200159,
+      "lng": -70.6154805
     },
     "address": "Av. Kennedy, 5741, Las Condes, Santiago",
     "phone": "(2)2426 2000",
     "contact": "--"
+  },
+  {
+    "id": "h04",
+    "name": "Hotel Patagónico",
+    "img": "http://www.apturchile.cl/wp-content/uploads/2016/09/Hotel-Patag%C3%B3nico_Puerto-Varas-768x512.png",
+    "type": "Hoteles",
+    "accessibility": 4,
+    "details": ["Estacionamiento", "Rampas", "Servicios Higienicos", "Apoyo visual: braille", "Apoyo visual: carteles tactiles"],
+    "description": "El hotel también ofrece un completo servicio inclusivo, el cual apunta a recibir en sus instalaciones a personas con movilidad reducida.",
+    "classification": "Alojamiento",
+    "location": {
+      "lat": -37.282922,
+      "lng": -76.3581143
+    },
+    "address": "Klenner 349, 5550000, Puerto Varas, Chile",
+    "phone": "(65) 220 1000",
+    "contact": "https://www.enjoy.cl/puerto-varas/"
+  },
+  {
+    "id": "h05",
+    "name": "DoubleTree by Hilton Santiago",
+    "img": "https://r-cf.bstatic.com/images/hotel/max500/247/247597455.jpg",
+    "type": "Hoteles",
+    "accessibility": 4,
+    "details": ["Estacionamiento", "Rampas", "Servicios Higienicos", "Apoyo visual: braille", "Apoyo visual: carteles tactiles"],
+    "description": "Ofrece alojamiento, centro de fitness, restaurante y conexión WiFi de alta velocidad.",
+    "classification": "Alojamiento",
+    "location": {
+      "lat": -33.4288831,
+      "lng": -70.5918895
+    },
+    "address": "Avenida Vitacura 2727, Las Condes, Santiago",
+    "phone": "(2) 2587 7000",
+    "contact": "--"
+  },
+  {
+    "id": "h06",
+    "name": "Novotel Santiago Providencia",
+    "img": "https://content.r9cdn.net/rimg/himg/76/aa/de/ice-109133-62185903_3XL-125251.jpg?crop=true&width=500&height=350",
+    "type": "Hoteles",
+    "accessibility": 4,
+    "details": ["Estacionamiento", "Rampas", "Servicios Higienicos", "Apoyo visual: braille", "Apoyo visual: carteles tactiles"],
+    "description": "En Santiago, a 1,9 km del centro comercial Costanera Center, y ofrece alojamiento con restaurante, aparcamiento privado, centro de fitness y bar.",
+    "classification": "Alojamiento",
+    "location": {
+      "lat": -33.432409,
+      "lng": -70.5912788
+    },
+    "address": "Avenida Holanda 222 Providencia, Santiago",
+    "phone": "(2) 2606 2222",
+    "contact": "--"
+  },
+  {
+    "id": "h07",
+    "name": "Holiday Inn Santiago (Airport Terminal)",
+    "img": "https://y.cdrst.com/foto/hotel-sf/11d24/granderesp/holiday-inn-santiago-airport-terminal-exterior-8666708.jpg",
+    "type": "Hoteles",
+    "accessibility": 4,
+    "details": ["Estacionamiento", "Rampas", "Servicios Higienicos", "Apoyo visual: braille", "Apoyo visual: carteles tactiles"],
+    "description": "El Holiday Inn Santiago Airport ofrece alojamiento justo enfrente del aeropuerto internacional de Santiago-Comodoro Arturo Merino Benítez.",
+    "classification": "Alojamiento",
+    "location": {
+      "lat": -33.4003786,
+      "lng": -70.7432043
+    },
+    "address": "Armando Cortinez Norte, 2150 , Santiago , Pudahuel",
+    "phone": "(2) 2799 9900",
+    "contact": "https://www.holidayinn.cl/hotel-aeropuerto-santiago/"
+  },
+  {
+    "id": "r01",
+    "name": "Rancho el Añil",
+    "img": "http://ranchoelanil.cl/wp-content/uploads/2019/11/foto10-1.jpg",
+    "type": "Restaurantes",
+    "accessibility": 4,
+    "details": ["Rampas", "Servicios Higienicos"],
+    "description": "El Rancho El Añil se encuentra en San José de Maipo y cuenta con restaurante, bar, salón compartido y jardín. Ofrece habitaciones familiares y parque infantil. El hotel cuenta con piscina al aire libre, piscina cubierta, animación nocturna y servicio de habitaciones.",
+    "classification": "Alimentación",
+    "location": {
+      "lat": -33.5129501,
+      "lng": -70.5881251
+    },
+    "address": "Camino al volcán 9716, San Jose de Maipo",
+    "phone": "228711122",
+    "contact": "reservas@ranchoelanil.cl"
   },
   {
     "id": "r02",
@@ -405,6 +575,74 @@
     "address": "Rengo 4581, Coquimbo 1800234, Chile",
     "phone": "+56 9 8982 0276",
     "contact": "restaurantelgriego15@gmail.com"
+  },
+  {
+    "id": "r04",
+    "name": "Castillo Forestal",
+    "img": "https://castilloforestal.cl/img/eventos-gallery/castillo-forestal-eventos-04.jpg",
+    "type": "Restaurantes",
+    "accessibility": 3,
+    "details": ["Rampas", "Servicios Higienicos"],
+    "description": "Con el concepto de Brasserie Francesa utilizando ingredientes gastronómicos chilenos y recetas típicas francesas. Hoy en día, el Castillo está catalogado como Patrimonio Nacional",
+    "classification": "Alimentación",
+    "location": {
+      "lat": -33.4164817,
+      "lng": -70.6152461
+    },
+    "address": "Av. Cardenal Jose María Caro 390  Parque Forestal, Santiago",
+    "phone": "+56 9 4444 853",
+    "contact": "contacto@castilloforestal.cl"
+  },
+  {
+    "id": "r05",
+    "name": "Restaurant Betahaus",
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/0e/4f/ce/19/betahaus-cafe.jpg",
+    "type": "Restaurantes",
+    "accessibility": 3,
+    "details": ["Rampas"],
+    "description": "Betahaus es un espacio colaborativo, es un café y resto-bar. Horario: lun - vie   08:00 - 20:00",
+    "classification": "Alimentación",
+    "location": {
+      "lat": -33.416992,
+      "lng": -70.6147537
+    },
+    "address": "Gral Calderón 127, Providencia, Región Metropolitana",
+    "phone": "+56 9 7477 6093",
+    "contact": "--"
+  },
+  {
+    "id": "r06",
+    "name": "Restaurant Zona 3",
+    "img": "https://d1bvpoagx8hqbg.cloudfront.net/originals/descubriendo-latinoamerica-santiago-chile-a55a9cf9f6e9a03556e488e0be89f74c.jpg",
+    "type": "Restaurantes",
+    "accessibility": 3,
+    "details": ["Rampas", "Servicios Higienicos"],
+    "description": "Local Amplio , acondicionado con rampas y baño espacioso. Horario: Lu. a Sá., 12.30 PM a 2 AM.",
+    "classification": "Alimentación",
+    "location": {
+      "lat": -33.416992,
+      "lng": -70.6147537
+    },
+    "address": "Pío Nono 160B, Bellavista, Santiago, Región Metropolitana",
+    "phone": "+56226390072",
+    "contact": "--"
+  },
+  {
+    "id": "r07",
+    "name": "Restaurant Roccos",
+    "img": "https://static.wixstatic.com/media/cd730f_8e9bae3c6a564617bd6c288a36b5d897.jpg/v1/fill/w_742,h_495,al_c,q_90,usm_0.66_1.00_0.01/cd730f_8e9bae3c6a564617bd6c288a36b5d897.webp",
+    "type": "Restaurantes",
+    "accessibility": 3,
+    "details": ["Rampas", "Servicios Higienicos"],
+    "description": " La pizzería de estilo neoyorkino Rocco's Pizzas es un lugar informal caracterizado por su amplia variedad de pizzas. Horario: Do a Ju de 12 a 02 hrs, Vi y Sa de 12 a 03 hrs.",
+    "classification": "Alimentación",
+    "location": {
+      "lat": -33.416992,
+      "lng": -70.6147537
+    },
+    "address": "Pío Nono 59, Bellavista, Santiago, Región Metropolitana",
+    "phone": "(2) 2498757",
+    "contact": "--"
   },
   {
     "id": "ta01",
@@ -459,7 +697,7 @@
   },
   {
     "id": "ta04",
-    "name": "Puelmapu turismo sustentable e inclusivo",
+    "name": "Puelmapu turismo inclusivo",
     "img": "https://0701.static.prezi.com/preview/v2/3aj44lqzucds7udzkqz32awnn36jc3sachvcdoaizecfr3dnitcq_3_0.png",
     "type": "Turismo Aventura",
     "accessibility": 3,
@@ -507,5 +745,90 @@
     "address": "Calle Coyancura 2270, 7500000 Los Leones, Providencia, Santiago",
     "phone": "--",
     "contact": "andesmagico@gmail.com"
+  },
+  {
+    "id": "tsp01",
+    "name": "Aeropuerto Arturo Merino Benítez SCL",
+    "img": "https://media.cnnchile.com/sites/2/2018/11/AEROPUERTO-740x430.jpg",
+    "type": "Transporte",
+    "accessibility": 4,
+    "details": ["Rampas", "Servicios Higienicos", "Estacionamiento", "Ascensor"],
+    "description": "Programa de Rehabilitación para niños y jóvenes con diferentes discapacidades. Ski adaptado, surf, Trekking , Canopy , Hidroterapia  y Actividades Recreativo-Educativas",
+    "classification": "Aereopuerto internacional",
+    "location": {
+      "lat": -33.4080783,
+      "lng": -70.814205
+    },
+    "address": "Avenida Armando Cortinez Norte 2150, Pudahuel, Región Metropolitana",
+    "phone": "(2) 2690 1796",
+    "contact": "https://www.nuevopudahuel.cl/"
+  },
+  {
+    "id": "tsp02",
+    "name": "Tren Central Santiago-Rancagua-Chillán",
+    "img": "https://www.trencentral.cl/wp-content/uploads/2017/10/filmaciones_03_full.jpg",
+    "type": "Transporte",
+    "accessibility": 3,
+    "details": ["Rampas", "Servicios Higienicos", "Estacionamiento"],
+    "description": "Servicio MetroTren es una importante alternativa de transporte para miles de personas que viven fuera de Santiago.",
+    "classification": "Terminal de trenes",
+    "location": {
+      "lat": -33.4296959,
+      "lng": -70.6448829
+    },
+    "address": "Av Libertador Bernardo O'Higgins 3170, Santiago, Estación Central, Región Metropolitana",
+    "phone": "600 585 5000 o 22 585 5000",
+    "contact": "https://www.trencentral.cl/alameda-chillan"
+  },
+  {
+    "id": "tsp03",
+    "name": "Terminal Sur en Santiago de Chile",
+    "img": "https://www.infodebuses.cl/wp-content/uploads/2017/05/Terminal-sur-1.jpg",
+    "type": "Transporte",
+    "accessibility": 3,
+    "details": ["Rampas", "Servicios Higienicos", "Estacionamiento"],
+    "description": "El Terminal de Buses de Santiago (Terminal Sur) es el principal y más importante de Santiago por la cantidad de destinos, además de contar con servicios internacionales.",
+    "classification": "Terminal de buses",
+    "location": {
+      "lat": -33.430621,
+      "lng": -70.6495508
+    },
+    "address": "Nicasio Retamales 44, Santiago Estación Central Región Metropolitana, Chile",
+    "phone": "+56 2 7760 236",
+    "contact": "https://www.chilepasajes.cl/es/terminales/terminal-sur-santiago"
+  },
+  {
+    "id": "tsp04",
+    "name": "Terminal Alameda (Tur bus) Santiago",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Terminal_Alameda.jpg/1200px-Terminal_Alameda.jpg",
+    "type": "Transporte",
+    "accessibility": 3,
+    "details": ["Rampas", "Servicios Higienicos", "Estacionamiento"],
+    "description": "La estación de Metro Universidad de Santiago está justo a la salida del terminal Alameda, ademas tiene conexión directa subterránea con el Terminal de Buses de Santiago.",
+    "classification": "Terminal de buses",
+    "location": {
+      "lat": -33.4302721,
+      "lng": -70.6478113
+    },
+    "address": "Avenida Bernardo O’Higgins 3750 Comuna Estación Central, Santiago, Región Metropolitana, Chile",
+    "phone": "22 8227500 - 22 8227589",
+    "contact": "https://www.chilepasajes.cl/es/terminales/terminal-alameda"
+  },
+  {
+    "id": "tsp05",
+    "name": "Terminal de buses San Borja",
+    "img": "https://www.infodebuses.cl/wp-content/uploads/2017/05/Terminal-San-Borja-1.jpg",
+    "type": "Transporte",
+    "accessibility": 3,
+    "details": ["Rampas", "Servicios Higienicos", "Estacionamiento"],
+    "description": "Terminal San Borja es el terminal de buses más moderno de Chile y de Santiago, remodelado completamente en 2007. Se encuentra en la estación de Metro Estación Central, junto con el centro comercial Arauco Estación.",
+    "classification": "Terminal de buses",
+    "location": {
+      "lat": -33.4302721,
+      "lng": -70.6478113
+    },
+    "address": "Avenida Bernardo O’Higgins 3750 Comuna Estación Central, Santiago, Región Metropolitana, Chile",
+    "phone": "(2) 2776 0645",
+    "contact": "https://www.chilepasajes.cl/es/terminales/terminal-alameda"
   }
 ]

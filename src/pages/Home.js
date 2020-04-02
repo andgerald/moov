@@ -19,7 +19,7 @@ class Home extends Component {
                           <p>Favoritos</p>    
                         </div>
                         <div className="column-home" id="home-about">
-                          <p>Contacto</p>
+                          <p>Transporte</p>
                         </div>
                     </div>
             </div>

@@ -1,10 +1,10 @@
 /* Home Page */
 .homeCategories {
-    padding: 2%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
+    margin: 1%;
 }
 
 .row-home {
@@ -54,8 +54,8 @@
 }
 
 #home-about {
-    background-image: url('../assets/img/home-turism.jpg');
-    background-position: center;
+    background-image: url('../assets/img/home-transporte.jpg');
+    background-position: bottom;
 }
 
 @media only screen and (max-width: 768px) {
@@ -70,7 +70,10 @@
 
 @media only screen and (max-width: 480px) {
     .homeCategories {
-        padding: 5% 0 5% 0;
+        display: block;
+        position: relative;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     .row-home {
@@ -78,6 +81,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 0;
     }
 
     .column-home {
