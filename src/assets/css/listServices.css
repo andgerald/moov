@@ -38,6 +38,15 @@ p {
   border-radius: 10px;
 }
 
+/* MODAL */
+.imgModal{
+  width: 100%;
+  height: 100%;
+}
+span {
+  font-weight: bolder;
+}
+
 @media only screen and (max-width: 768px) {
   .container_ {
     display: flex;
@@ -62,6 +71,9 @@ p {
     padding: 0px;
     border-radius: 10px;
   }
-
+  .imgModal{
+    width: 100%;
+    height: 100%;
+  }
 
 }
