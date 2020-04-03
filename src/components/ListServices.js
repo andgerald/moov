@@ -90,7 +90,7 @@ class ListServices extends Component {
             <p><span>Dirección:</span> {this.state.target.address}</p>
             <p><span>Telefóno:</span> {this.state.target.phone}</p>
             <p><span>Contacto:</span> {this.state.target.contact}</p>
-            <div style={{display:"flex",justifyContent:"flex-end"}} onClick={()=>this.handleCloseModal()}><img style={{width:"30px",height:"30px"}} src={iconClose}></img></div>
+            <div style={{display:"flex",justifyContent:"flex-end"}} onClick={()=>this.handleCloseModal()}><img style={{width:"30px",height:"30px"}} alt="icon" src={iconClose}></img></div>
             </Modal.Body>
           </Modal >
         </>
