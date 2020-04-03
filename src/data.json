@@ -170,7 +170,7 @@
   },
   {
     "id": "pp01",
-    "name": "Parque Nacional Radal Siete Tazas",
+    "name": "Radal Siete Tazas",
     "img": "https://media.metrolatam.com/2020/02/08/radal-8d961d3bb22a9a3c541d9c8d660afc5e-1200x800.jpg",
     "type": "Parques y Plazas",
     "accessibility": 4,
@@ -255,7 +255,7 @@
   },
   {
     "id": "pp06",
-    "name": "Reserva Nacional Río Clarillo",
+    "name": "Reserva Río Clarillo",
     "img": "https://media.cnnchile.com/sites/2/2020/02/rio-clarillo-0402-740x430.jpg",
     "type": "Parques y Plazas",
     "accessibility": 4,
@@ -272,7 +272,7 @@
   },
   {
     "id": "m01",
-    "name": "Museo Arte Colonial San Francisco Cultural",
+    "name": "San Francisco Cultural",
     "img": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Museo_Colonial_-_Santiago.jpg",
     "type": "Museos",
     "accessibility": 5,
@@ -289,7 +289,7 @@
   },
   {
     "id": "m02",
-    "name": "MIM, Museo Interactivo Mirador",
+    "name": "Interactivo Mirador",
     "img": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Museo_Interactivo_Mirador-01.jpg",
     "type": "Museos",
     "accessibility": 3,
@@ -493,7 +493,7 @@
   },
   {
     "id": "h06",
-    "name": "Novotel Santiago Providencia",
+    "name": "Novotel",
     "img": "https://content.r9cdn.net/rimg/himg/76/aa/de/ice-109133-62185903_3XL-125251.jpg?crop=true&width=500&height=350",
     "type": "Hoteles",
     "accessibility": 4,
@@ -510,7 +510,7 @@
   },
   {
     "id": "h07",
-    "name": "Holiday Inn Santiago (Airport Terminal)",
+    "name": "Holiday Inn",
     "img": "https://y.cdrst.com/foto/hotel-sf/11d24/granderesp/holiday-inn-santiago-airport-terminal-exterior-8666708.jpg",
     "type": "Hoteles",
     "accessibility": 4,
@@ -680,7 +680,7 @@
   },
   {
     "id": "ta03",
-    "name": "Fundación Senderos de Chile",
+    "name": "Senderos de Chile",
     "img": "https://photos1.blogger.com/blogger/477/3186/1600/Logo-Vertical.0.jpg",
     "type": "Turismo Aventura",
     "accessibility": 3,
@@ -697,7 +697,7 @@
   },
   {
     "id": "ta04",
-    "name": "Puelmapu turismo inclusivo",
+    "name": "Puelmapu",
     "img": "https://0701.static.prezi.com/preview/v2/3aj44lqzucds7udzkqz32awnn36jc3sachvcdoaizecfr3dnitcq_3_0.png",
     "type": "Turismo Aventura",
     "accessibility": 3,
