@@ -1,38 +1,96 @@
 /* Home Page */
 .homeCategories {
-    padding: 10%;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 1%;
+}
+
+.row-home {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
-.categoryBox {
-    width: 50%;
-    background-color: rgb(18, 99, 18);
-    text-align: center;
-    color: white;
-    padding: 5%;
+.column-home {
+    width: 25%;
     display: flex;
-    justify-content: space-around;
-    margin: 2%;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 4%;
+    justify-content: center;
 }
 
-.categoryBox,
-p {
+.column-home:hover {
+    cursor: pointer;
+}
+
+
+.column-home p {
+    font-size: 1.56rem;
+    background-color: rgba(0, 0, 0, 0.788);
+    width: 100%;
     text-align: center;
-    padding-top: 0.93rem;
+    padding: 0.625rem 0 0.625rem 0;
+}
+
+#home-map {
+    background-image: url('../assets/img/home-city.jpg');
+    background-position: center;
+}
+
+#home-services {
+    background-image: url('../assets/img/home-lights.jpg');
+    background-position: center;
+}
+
+#home-favorits {
+    background-image: url('../assets/img/home-sunrise.jpg');
+    background-position: center;
+}
+
+#home-about {
+    background-image: url('../assets/img/home-transporte.jpg');
+    background-position: bottom;
 }
 
 @media only screen and (max-width: 768px) {
-    .categoryBox {
-        width: 100%;
+    .column-home {
+        width: 50%;
+    }
+
+    .column-home p {
+        font-size: 1.25rem;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .homeCategories {
+        display: block;
+        position: relative;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .row-home {
         width: 100%;
         display: flex;
-        justify-content: flex-end;
         flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .column-home {
+        width: 60%;
+        display: flex;
+    }
+
+    .column-home p {
+        font-size: 1.125rem;
     }
 }

@@ -11,17 +11,12 @@ body {
   margin-top: 100px;
 }
 
+h3 {
+  font-size: 18px;
+}
+
 .mapContainer {
   width: 640px;
   height: 480px
 }
 
-/* padding para los contenedores de las paginas, exceto Home */
-.favoritePage,
-.container_,
-.aboutPage,
-.accesssibility {
-  padding: 2%;
-  display: flex;
-  justify-content: center;
-}

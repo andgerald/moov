@@ -4,9 +4,9 @@ import '../assets/css/nav.css';
 import Home from '../pages/Home';
 import Maps from './Maps';
 import Services from './Services';
+import Transport from './Transport';
 import Favorities from './Favorites';
 import About from './About';
-import Accessibility from './Accessibility';
 import MenuIcon from '../assets/img/white-menu-button.png';
 import Map from '../assets/img/map-icon.png';
 import iconMapa from '../assets/img/iconMapa.svg';
@@ -15,7 +15,8 @@ import iconFavoritos from '../assets/img/iconFavoritos.svg';
 import iconAcercaDe from '../assets/img/iconAcercaDe.svg';
 import iconHome from '../assets/img/iconHome.svg';
 import iconBack from '../assets/img/iconBack.svg';
-
+import iconAvion from '../assets/img/iconAvion.svg';
+import Footer from '../components/Footer';
 
 
 class MyNavBar extends React.Component {
@@ -43,11 +44,11 @@ class MyNavBar extends React.Component {
 			case 2:
 				return <Services />
 			case 3:
-				return <Favorities/>
+				return <Transport/>
 			case 4:
-          return <About/>
+          return <Favorities/>
       case 5:
-          return <Accessibility/>  	
+          return <About/>  
 			default:
 				return <Home/>
 		}
@@ -67,29 +68,35 @@ class MyNavBar extends React.Component {
           <nav className="nav-links">
             <ul>
               <div className='containerElemt_'>
-              <img className='iconElem_' src={iconHome}/>
-              <img className='iconElem__' src={iconBack}/>
+              <img alt="icon" onClick={()=> this.changeState(0)} className='iconElem_' src={iconHome}/>
+              <img alt="icon" className='iconElem__' src={iconBack}/>
               </div>
               <div className='containerElemt'>
-              <img className='iconElem' src={iconMapa}/>
+              <img alt="icon" className='iconElem' src={iconMapa}/>
               <div onClick={()=> this.changeState(1)} href="#Maps"><li>Mapa</li></div>
               </div>
               <div className='containerElemt'>
-              <img className='iconElem' src={iconServicios}/>  
+              <img alt="icon" className='iconElem' src={iconServicios}/>  
               <div onClick={()=> this.changeState(2)} href="#Services"><li>Servicios</li></div>
               </div>
               <div className='containerElemt'>
-              <img className='iconElem' src={iconFavoritos}/>  
-              <div onClick={()=> this.changeState(3)} href="#Favorities"><li>Favoritos</li></div>
+              <img alt="icon" className='iconElem' src={iconAvion}/>  
+              <div onClick={()=> this.changeState(3)} ><li>Transportes</li></div>
               </div>
               <div className='containerElemt'>
-              <img className='iconElem' src={iconAcercaDe}/> 
-              <div onClick={()=> this.changeState(4)} href="#About"><li>Acerca de</li></div>
+              <img alt="icon" className='iconElem' src={iconFavoritos}/>  
+              <div onClick={()=> this.changeState(4)} href="#Favorities"><li>Favoritos</li></div>
+              </div>
+              <div className='containerElemt'>
+              <img alt="icon" className='iconElem' src={iconAcercaDe}/> 
+              <div onClick={()=> this.changeState(5)} href="#About"><li>Acerca de</li></div>
               </div>
             </ul>
           </nav>
       </header>
       <div>{this.getActivePage()}</div>
+      {/* Pasamos la funcion changeState por props a este components por eso bindeamos */}
+      <Footer changeState={this.changeState.bind(this)}/>
       </div>
     );
   }

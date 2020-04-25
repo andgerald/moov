@@ -1,68 +1,86 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Moov: Turismo y accesibilidad
 
-## Available Scripts
+Más de mil millones de personas viven en todo el mundo con algúna forma de movilidad reducida.  
+Problema: Invisibilidad en Chile respecto a las necesidades recreativas y de turismo , para las personas con movilidad reducida, especialmente personas en silla de ruedas.
 
-In the project directory, you can run:
+## Definición del producto
 
-### `yarn start`
+Moov es una aplicación que facilita a las personas con movilidad reducida encontrar puntos de interes turisticos y lugares de
+entretención inclusivos.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Moov es una aplicación web desarrollada con React, tecnologia creada por Facebook, que tiene como ventaja la
+velocidad de navegación. El enfoque principal de Moov es la mapa proporcionada por Here Technologies que muestra con
+marcadores los puntos de interes.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Definición UX
 
-### `yarn test`
+Durante la investigación encontramos que los principales necesidades de los usuraios son:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- una app que sea rápida y facil de consultar
+- información sobre lugares de interés, que cumplan con los estándares de calidad en accesibilidad para sillas de ruedas.
+- que muestre en tiempo real la ubicación y los puntos de interés
+- que entregue información detallada sobre el lugar y las condiciones de accesibilidad.
 
-### `yarn build`
+### Definición del usuario
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Moov se dedica al usuario con movilidad reducida que desea visitar puntos de interes turistico, lugares de entretención y que necesita información de accesibilidad sobre cada punto. Por ejemplo si existe rampa de acceso, entrada bastantemente ancha para la silla de ruedas, servicios de higiene adecuados, ascensores, etc.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+#### Historias de usuario
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. El usuario ingresa en la app y puede ver el mapa.
+2. El usuario puede ver su ubicación y puntos de interes en la mapa
+3. El usuario puede encontrar lugares por categoría y ver la información de accesibilidad de cada uno
 
-### `yarn eject`
+#### Definición de hecho
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Al ingresar, el usuario apreta el boton Entrar y se muestra la página principal donde puede elegir si ver el mapa, ver los puntos de interes por categoría, ver la sección de favoritos o la página de contacto Moov.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Al apretar Mapa, se muestra el mapa desde la ubicación del usuario. Al hacer zoom out se pueden ver los puntos de interes de la ciudad y del país.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Prototipo de alta fidelidad
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Se realizó el prototipo de alta fidelidad usando Figma.
+![Figma](/src/assets/img/prototipo.jpg)
 
-## Learn More
+#### Mockup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Mockup Moov](/src/assets/img/mockup.jpg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Interfaz de usuario UI
 
-### Code Splitting
+### Decisiones de diseño
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Para el diseño de la plataforma se elegieron colores contrastantes como celeste para el menu y para los puntos de interes verde, morado, fucsia y naranjo. El background blanco resalta los elementos graficos para dar legibilidad y facilidad en encontrarlos.
 
-### Analyzing the Bundle Size
+![Colores](/src/assets/img/colores.jpg)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+#### Tipografía
 
-### Making a Progressive Web App
+Roboto - es una familia tipográfica sans-serif neo-grotesca desarrollada por Google.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+#### La interfaz permite:
 
-### Advanced Configuration
+- facil ingreso con un solo click
+- accesar el mapa y ver la propia ubicación
+- navegar en el mapa y encontrar puntos de interes marcados con iconos ilustrativos, distintos para cada categoría de lugar de interes
+- accesar el listado de puntos de interes por categoría
+- accesar la información detallada sobre la accesibilidad de los puntos de interes
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+### Desarrollo
 
-### Deployment
+- La app está desarrollada con React versión 16.5.0
+- Para mostrar el mapa se usó la API proporcionada por Here Technologies
+- La interfaz está diseñada para correr en dispositivos de distintos tamaños.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+### Planificación
 
-### `yarn build` fails to minify
+Para planificar el flujo de trabajo se usó [Trello](https://trello.com/b/7x0wrI4U/proyect-here)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Autores
+
+Moov estuvo desarrollado por:
+
+- [Andrea Vasquez](https://github.com/AndreaVasquezHerrera)
+- [Corina Varas](https://github.com/CorinaVaras)
+- [Geraldine Becerra](https://github.com/andgerald)
+- [Monica Bartha](https://github.com/MonicaBartha)

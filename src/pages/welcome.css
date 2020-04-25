@@ -11,7 +11,8 @@
   width: 100%;
   height: 100vh;
   padding: 0.5rem;
-  background: gray;
+  background-image: url("../assets/img/welcome-beach.jpg");
+  background-position: center;
 }
 
 .imgCustom {
@@ -37,9 +38,9 @@
 }
 
 /* Responsive para celular */
-@media (max-width: 700px) {
-  .imgCustom {
-    width: 300px;
-    padding-left: 2em;
+@media (max-width: 480px) {
+  .section_ {
+    background-image: url("../assets/img/welcome-beach-mobile.jpg");
+    background-position: bottom;
   }
 }
